@@ -1,0 +1,42 @@
+nav {
+    height: 100px; 
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 40px; 
+}
+
+
+
+.logo {
+    display: flex; 
+    align-items: center; 
+}
+
+.logo img {
+    width: 100px; 
+}
+
+.links-list {
+    width: 30%; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links-list li {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none; 
+}
+
+.nav-link {
+    padding-right: 25px; 
+    text-decoration: none; 
+    color: black; 
+    transition: all .3s ease-out;
+}
+
+.nav-link:hover {
+    color: #5fffff;
+    transform: translate(0, -5px);
+}
+
