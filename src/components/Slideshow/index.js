@@ -7,31 +7,65 @@ import "./styles.scss"
 
 export default function Slideshow() {
 
-    const [slide, setSlide] = useState(0)
-
-    const slideshow = [slideshow1, slideshow2, slideshow3]
 
     useEffect(() => {
-        const loop = setInterval(() => {
-            if(slide === slideshow.length - 1) {
-                setSlide(0)
-            } else {
-                setSlide(slide + 1)
-            }
-        }, 5000)
-        return () => clearInterval(loop)
-    }, [slide])
+    const divs = document.querySelectorAll('.slideshow div')
+    let index = 1;
+
+    setInterval(function () {
+      
+      if (document.querySelector(".inactive")) {
+        document.querySelector(".inactive").classList.remove("inactive");
+      }
+
+      if (document.querySelector(".active")) {
+        document.querySelector(".active").classList.add("inactive");
+        document.querySelector(".active").classList.remove("active");
+      }
+      divs[index % divs.length].classList.add("active")   
+      index++
+
+    }, 3000)
+
+  }, [])
+
+    // const [slide, setSlide] = useState(0)
+
+    // const slideshow = [slideshow1, slideshow2, slideshow3]
+
+    // useEffect(() => {
+    //     const loop = setInterval(() => {
+    //         if(slide === slideshow.length - 1) {
+    //             setSlide(0)
+    //         } else {
+    //             setSlide(slide + 1)
+    //         }
+    //     }, 5000)
+    //     return () => clearInterval(loop)
+    // }, [slide])
 
     return (
-        <div className="slideshow-container">
-            {slideshow.map((image, index) => {
-                 return (
-                 <div key={index} className="active">
-                    <img src={image} className="slideshow-image" alt="slideshow" />
-                </div>
-                )
-            })}
+
+        <div className="slideshow">
+            <div className="active slideshow-image" style={{backgroundImage: `url(${slideshow1})`}}>
+
+            </div>  
+            <div className="slideshow-image" style={{backgroundImage: `url(${slideshow2})`}}>
+
+            </div>
+            <div className="slideshow-image" style={{backgroundImage: `url(${slideshow3})`}}>
+
+            </div>
         </div>
+        // <div className="slideshow-container">
+        //     {slideshow.map((image, index) => {
+        //          return (
+        //          <div key={index} className="active">
+        //             <img src={image} className="slideshow-image" alt="slideshow" />
+        //         </div>
+        //         )
+        //     })}
+        // </div>
         // className={index === slide ? "active": ""}
 
     )
