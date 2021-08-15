@@ -1,0 +1,19 @@
+.sidebar-container {
+    width: 150px; 
+    display: inline-block; 
+
+    .sidebar-subtitle {
+        margin-top: 2rem; 
+        display: flex; 
+        justify-content: center;
+        font-size: 1.5rem; 
+    }
+
+    .sidebar-left {
+        grid-column: 1/2
+    }
+
+    .sidebar-center {
+        grid-column: 1/3
+    }
+}

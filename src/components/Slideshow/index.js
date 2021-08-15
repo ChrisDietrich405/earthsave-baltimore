@@ -29,45 +29,16 @@ export default function Slideshow() {
 
   }, [])
 
-    // const [slide, setSlide] = useState(0)
-
-    // const slideshow = [slideshow1, slideshow2, slideshow3]
-
-    // useEffect(() => {
-    //     const loop = setInterval(() => {
-    //         if(slide === slideshow.length - 1) {
-    //             setSlide(0)
-    //         } else {
-    //             setSlide(slide + 1)
-    //         }
-    //     }, 5000)
-    //     return () => clearInterval(loop)
-    // }, [slide])
 
     return (
-
+      <div className="slideshow-container">
         <div className="slideshow">
-            <div className="active slideshow-image" style={{backgroundImage: `url(${slideshow1})`}}>
-
-            </div>  
-            <div className="slideshow-image" style={{backgroundImage: `url(${slideshow2})`}}>
-
-            </div>
-            <div className="slideshow-image" style={{backgroundImage: `url(${slideshow3})`}}>
-
-            </div>
+            <div className="active slideshow-image" style={{backgroundImage: `url(${slideshow1})`}}></div>  
+            <div className="slideshow-image" style={{backgroundImage: `url(${slideshow2})`}}></div>
+            <div className="slideshow-image" style={{backgroundImage: `url(${slideshow3})`}}></div>
         </div>
-        // <div className="slideshow-container">
-        //     {slideshow.map((image, index) => {
-        //          return (
-        //          <div key={index} className="active">
-        //             <img src={image} className="slideshow-image" alt="slideshow" />
-        //         </div>
-        //         )
-        //     })}
-        // </div>
-        // className={index === slide ? "active": ""}
-
+      </div>
+      
     )
 }
 
