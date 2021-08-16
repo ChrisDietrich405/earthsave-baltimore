@@ -11,7 +11,7 @@ export default function Sidebar(props) {
         <div className="sidebar-container">
             <div className="sidebar-left">
                 <div className="sidebar-title">
-                    <h4>{ props.title }</h4>
+                    {/* <h4>{ props.title }</h4> */}
                     <ul></ul>
                 </div>
                 <ul>
@@ -27,14 +27,14 @@ export default function Sidebar(props) {
             
             <div className="sidebar-center">
 
-                <Switch>
+                {/* <Switch>
                   {props.links.map(link => {
                     return  <Route 
                           path={link.path}
                           component={link.component}
                       />
-                  })}				
-                </Switch>  
+                  })}				 */}
+                {/* </Switch>   */}
             </div>
         </div>  
     )

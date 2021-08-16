@@ -1,19 +1,33 @@
 .sidebar-container {
-    width: 150px; 
-    display: inline-block; 
+    width: 400px; 
+    display: flex;
+    justify-content: center; 
+    
+
+    h5 {
+        font-size: .3rem; 
+    }
 
     .sidebar-subtitle {
         margin-top: 2rem; 
         display: flex; 
         justify-content: center;
-        font-size: 1.5rem; 
+        font-size: .8rem; 
+        text-decoration: none; 
     }
 
     .sidebar-left {
-        grid-column: 1/2
+        width: 400px;
+        display: flex; 
+        justify-content: center;
+        margin-top: 2rem; 
+        margin-right: 3.7rem; 
+
+        li {
+            list-style: none; 
+           
+        }
+
     }
 
-    .sidebar-center {
-        grid-column: 1/3
-    }
 }
