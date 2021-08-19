@@ -1,9 +1,9 @@
 .sidebar-container {
-    width: 400px; 
-    display: flex;
-    justify-content: center; 
+    width: calc(100vw - (100vw - 100%));  
+    height: 100%; 
+    display: grid; 
+    grid-template-columns: 1fr 5fr; 
     
-
     h5 {
         font-size: .3rem; 
     }
@@ -17,15 +17,14 @@
     }
 
     .sidebar-left {
-        width: 400px;
+        width: 15rem; 
         display: flex; 
         justify-content: center;
         margin-top: 2rem; 
         margin-right: 3.7rem; 
 
         li {
-            list-style: none; 
-           
+            list-style: none;     
         }
 
     }

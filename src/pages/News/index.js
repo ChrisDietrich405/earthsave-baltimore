@@ -9,9 +9,3 @@ export default function News() {
     )
 }
 
-//Fascinating Facts & Quotes
-//Recommended Resources
-//Frequently Asked Questions
-//Local Nutrition and Medical Professionals
-//Local Restaurants
-//Article: The HE(art) of Gentle Persuasion

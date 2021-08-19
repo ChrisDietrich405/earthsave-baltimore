@@ -27,14 +27,14 @@ export default function Sidebar(props) {
             
             <div className="sidebar-center">
 
-                {/* <Switch>
+                <Switch>
                   {props.links.map(link => {
                     return  <Route 
                           path={link.path}
                           component={link.component}
                       />
-                  })}				 */}
-                {/* </Switch>   */}
+                  })}				 
+                </Switch>  
             </div>
         </div>  
     )
