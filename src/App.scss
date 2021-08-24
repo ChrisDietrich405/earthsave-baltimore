@@ -1,0 +1,28 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+.app-container {
+  height: 70vh; 
+  display: flex; 
+  justify-content: space-between; 
+}
+
+
+.app-switch {
+  position: relative;  
+  width: 60%; 
+}
+
+.app-sidebar {
+  width: 20%;
+  
+  h3 {
+    margin-top: 1rem; 
+    margin-left: 1rem; 
+  }
+}
+
+

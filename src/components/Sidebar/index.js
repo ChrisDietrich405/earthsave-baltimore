@@ -1,4 +1,4 @@
-import { Link, Switch, Route } from "react-router-dom"
+import { Link, Switch, Route, useLocation } from "react-router-dom"
 
 import classNames from "classnames"
 import parser from "html-react-parser"
@@ -6,6 +6,8 @@ import parser from "html-react-parser"
 import "./styles.scss"
 
 export default function Sidebar(props) {
+    const location = useLocation()
+
     return (
 
         <div className="sidebar-container">
@@ -17,24 +19,14 @@ export default function Sidebar(props) {
                 <ul>
                 {props.links.map(link => (
                     <li>
-                        <Link to={link.path} className={classNames("sidebar-subtitle", {active: window.location.pathname==link.path})}>
+                        {link.icon}
+                        <Link to={link.path} className={classNames("sidebar-subtitle", { active_item: location.pathname == link.path } )}>
+                            
                             {parser(link.title)}
                         </Link>
                     </li>
                     ))}
                 </ul>
-            </div>
-            
-            <div className="sidebar-center">
-
-                <Switch>
-                  {props.links.map(link => {
-                    return  <Route 
-                          path={link.path}
-                          component={link.component}
-                      />
-                  })}				 
-                </Switch>  
             </div>
         </div>  
     )

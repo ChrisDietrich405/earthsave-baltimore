@@ -12,7 +12,7 @@ export default function Slideshow() {
     const divs = document.querySelectorAll('.slideshow div')
     let index = 1;
 
-    setInterval(function () {
+    const interval = setInterval(function () {
       
       if (document.querySelector(".inactive")) {
         document.querySelector(".inactive").classList.remove("inactive");
@@ -25,7 +25,11 @@ export default function Slideshow() {
       divs[index % divs.length].classList.add("active")   
       index++
 
-    }, 3000)
+    }, 3000); 
+
+    return () => clearInterval(interval)
+    
+
 
   }, [])
 

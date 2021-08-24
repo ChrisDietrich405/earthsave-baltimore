@@ -12,7 +12,7 @@ export default function Navbar() {
             </div>
             <ul className="links-list">
                 <li>
-                    <Link to="/home" className="nav-link">Home</Link>
+                    <Link to="/" className="nav-link">Home</Link>
                 </li> 
                 <li>
                     <Link to="/donate" className="nav-link">Donate</Link>
