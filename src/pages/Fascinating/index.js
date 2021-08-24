@@ -5,40 +5,32 @@ export default function Fascinating() {
             <h5>HEALTHIER FOOD CHOICES: Did you know...</h5>
             <b>Protein, Health, & Fitness:</b> <p> Did you know that a diet consisting of a variety of beans and lentils, fruits and vegetables, whole grains, nuts and seeds has all the proteins people need to be healthy and active? There are many world class vegan athletes, including Carl Lewis, winner of nine Olympic gold medals in track and field, and fellow vegan Ricky Williams, Heisman Trophy winning running back for the Miami Dolphins. </p>
             <b>Nutritional Needs:</b> <p> Did you know that virtually all vitamins, minerals, and amino acids are created in soil or plants? That's why people who eat only plant foods can obtain plenty of protein, iron, calcium and other important nutrients.</p>
+            <b>The China Study</b> <p> generated massive volumes of comprehensive data, suggesting that the more animal protein we eat, the greater our risk for cardiovascular disease, diabetes, kidney disease, osteoporosis and autoimmune diseases. The director of that ground-breaking study also concluded that the consumption of animal products causes more cancers than does any chemical carcinogen.</p>
+            <b>Heart Disease:</b> <p>The clinical studies of medical doctor Dean Ornish have shown us that most patients who followed standard medical advice for coronary artery blockages got worse, while those who adopted a total vegetarian diet coupled with lifestyle changes showed improvement, including reversal of coronary artery blockages.</p> 
+            <b>Diabetes:</b> <p>Health professionals used to believe that once we develope diabetes, we are stuck with it. The clinical studies of Neal Barnard, MD, which were funded by the National Institute of Health, have shown that it is possible to repair insulin function and reverse Type-2 diabetes.
+            Long term adherence to a diet that includes meat just once a week or more is linked to a 74% increase in the chance of developing diabetes.</p>
+            <b>Heart Disease:</b> <p> Cleveland Clinic physician Dr. Caldwell Esselstyn has convincingly shown that even severe             coronary artery disease is completely reversible thru dietary change. Seventeen patients with advanced heart            disease went on his vegan dietary plan. 49 cardiac events had previously occurred in this group, and 5 patients had         been given less than a year to live. 23 years later, all were still alive and free of heart disease symptoms.</p>
+            <b>Lactose intolerance</b> <p> is not a disorder. It’s normal. Most of us lose the ability to digest milk sugars upon weaning, usually in our third year of life. 70% of the world's population fits this profile. And calcium deficiency and osteoporosis are rare in populations with low dairy consumption.</p>
+            <b>Antibiotics</b><p> are routinely fed to chickens, turkeys, pigs, and dairy cows in massive             amounts. As a result, bacterial resistance to antibiotic treatment of humans has            jumped dramatically since the 1970s.</p>
+            <b>Milk</b> <p>Did you know that there is virtually no evidence that drinking two or three glasses of milk a day reduces the chances of breaking a bone? … or that the highest hip fracture rates are found in the countries in which the most dairy products are consumed?</p>
+            <b>Chickens:</b> <p> Those who have witnessed the conditions in which chickens are raised and          killed can understand why poultry is the most common cause of food poisoning in the         home. The Atlanta Journal Constitution interviewed 84 federal poultry inspectors and        found that more than two-thirds of them were so concerned that they had stopped          eating chickens, themselves.</p>
+            <p>Erectile Dysfunction:</p> <p> Did you know that physicians are now using male erectile dysfunction as a marker for heart disease? The artery that leads down there can become clogged or damaged, just like any other. It can also be restored to vitality, like any other. Let food be your medicine!</p>
+            <b>Food Borne Illness:</b> <p> According to the U.S. Department of Agriculture, the major food             borne microorganisms that make people sick and can even kill them – viruses,            bacteria, parasites, and fungi – occur mainly in “meat, poultry, seafood, dairy         products and eggs” (Buzby & Roberts).</p>
+            <h4>COMPASSIONATE FOOD CHOICES: Did you know…</h4>
+            <b>Farmed Animals:</b> <p>The vast majority of farmed animals today are raised in appalling conditions, which few of us would want to imagine, let alone experience. The federal Animal Welfare Act offers no protection, because it doesn’t even apply to farmed animals. And the few state laws that exist are often simply ignored.</p> 
+            <b>Dairy Industry:</b> <p> Did you know that a cow on a modern dairy farm will spend nearly             all of her short life pregnant, so that milk production and profits can be maximized?           The male calves, who are inconvenient by-products of that industry, are taken from          their mothers within hours of birth, often to be chained at the neck in one spot for        their entire, brief lives.</p>
         </div>
 
 
 
 
 
-// The China Study generated massive volumes of comprehensive data, suggesting that the more animal protein we eat, the greater our risk for cardiovascular disease, diabetes, kidney disease, osteoporosis and autoimmune diseases. The director of that ground-breaking study also concluded that the consumption of animal products causes more cancers than does any chemical carcinogen.
 
-// Heart Disease: The clinical studies of medical doctor Dean Ornish have shown us that most patients who followed standard medical advice for coronary artery blockages got worse, while those who adopted a total vegetarian diet coupled with lifestyle changes showed improvement, including reversal of coronary artery blockages.
-
-// Diabetes: Health professionals used to believe that once we develope diabetes, we are stuck with it. The clinical studies of Neal Barnard, MD, which were funded by the National Institute of Health, have shown that it is possible to repair insulin function and reverse Type-2 diabetes.
-
-// Long term adherence to a diet that includes meat just once a week or more is linked to a 74% increase in the chance of developing diabetes.
-
-// Heart Disease: Cleveland Clinic physician Dr. Caldwell Esselstyn has convincingly shown that even severe coronary artery disease is completely reversible thru dietary change. Seventeen patients with advanced heart disease went on his vegan dietary plan. 49 cardiac events had previously occurred in this group, and 5 patients had been given less than a year to live. 23 years later, all were still alive and free of heart disease symptoms.
-
-// Lactose intolerance is not a disorder. It’s normal. Most of us lose the ability to digest milk sugars upon weaning, usually in our third year of life. 70% of the world's population fits this profile. And calcium deficiency and osteoporosis are rare in populations with low dairy consumption.
-
-// Antibiotics are routinely fed to chickens, turkeys, pigs, and dairy cows in massive amounts. As a result, bacterial resistance to antibiotic treatment of humans has jumped dramatically since the 1970s.
-
-// Milk: Did you know that there is virtually no evidence that drinking two or three glasses of milk a day reduces the chances of breaking a bone? … or that the highest hip fracture rates are found in the countries in which the most dairy products are consumed?
-
-// Chickens: Those who have witnessed the conditions in which chickens are raised and killed can understand why poultry is the most common cause of food poisoning in the home. The Atlanta Journal Constitution interviewed 84 federal poultry inspectors and found that more than two-thirds of them were so concerned that they had stopped eating chickens, themselves.
-
-// Erectile Dysfunction: Did you know that physicians are now using male erectile dysfunction as a marker for heart disease? The artery that leads down there can become clogged or damaged, just like any other. It can also be restored to vitality, like any other. Let food be your medicine!
-
-// Food Borne Illness: According to the U.S. Department of Agriculture, the major food borne microorganisms that make people sick and can even kill them – viruses, bacteria, parasites, and fungi – occur mainly in “meat, poultry, seafood, dairy products and eggs” (Buzby & Roberts).
  
 
-// COMPASSIONATE FOOD CHOICES: Did you know…
 
-// Farmed Animals: The vast majority of farmed animals today are raised in appalling conditions, which few of us would want to imagine, let alone experience. The federal Animal Welfare Act offers no protection, because it doesn’t even apply to farmed animals. And the few state laws that exist are often simply ignored.
 
-// Dairy Industry: Did you know that a cow on a modern dairy farm will spend nearly all of her short life pregnant, so that milk production and profits can be maximized? The male calves, who are inconvenient by-products of that industry, are taken from their mothers within hours of birth, often to be chained at the neck in one spot for their entire, brief lives.
+
 
 // Egg Industry: You might not know that the egg industry has no use for newborn male chicks, so they are routinely tossed into plastic bags with hundreds of others and left to smother. Free range egg production is typically no different.
 
