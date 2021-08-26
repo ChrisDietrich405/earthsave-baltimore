@@ -1,5 +1,12 @@
+import useDevice from "../../hooks/useDevice"
+
 export default function Fascinating() {
+    
+    const dimensions = useDevice()
+    console.log(dimensions) 
+
     return (
+
         <div>
             <h4>Fascinating Facts and Quotes About Food</h4>
             <h5>HEALTHIER FOOD CHOICES: Did you know...</h5>
@@ -19,6 +26,14 @@ export default function Fascinating() {
             <h4>COMPASSIONATE FOOD CHOICES: Did you know…</h4>
             <b>Farmed Animals:</b> <p>The vast majority of farmed animals today are raised in appalling conditions, which few of us would want to imagine, let alone experience. The federal Animal Welfare Act offers no protection, because it doesn’t even apply to farmed animals. And the few state laws that exist are often simply ignored.</p> 
             <b>Dairy Industry:</b> <p> Did you know that a cow on a modern dairy farm will spend nearly             all of her short life pregnant, so that milk production and profits can be maximized?           The male calves, who are inconvenient by-products of that industry, are taken from          their mothers within hours of birth, often to be chained at the neck in one spot for        their entire, brief lives.</p>
+            <b>Egg Industry: </b> <p>You might not know that the egg industry has no use for newborn male chicks, so they are routinely tossed into plastic bags with hundreds of others and left to smother. Free range egg production is typically no different.
+            Farmed Animals have individual personalities and love their lives just as we do. Our taste for meat supports an industry that confines and houses them in deplorable conditions; that deprives them of fresh air, sunlight, and freedom of movement; that frustrates nearly every need and natural instinct. How do we feel about this…</p>
+            <h4> EARTH FRIENDLY FOOD CHOICES: Did you know…</h4>
+            <b>Climate Change:</b> <p>A recent UN report says that livestock produce more climate-changing greenhouse gases than do all forms of transportation combined. The human appetite for animal flesh is also a driving force behind air and water pollution, soil erosion, deforestation, and fresh water scarcity. Our meat eating habit poses a serious threat to our future.
+            Modern meat production uses massive amounts of water, grains, fossil fuels and other resources to convert plant foods, which are naturally low in fat, high in fiber, and contain no cholesterol at all, into a food that is high in fat, high in cholesterol, and contains no fiber at all.</p>
+            <b>Shrimp & Fish:</b> <p> Did you know that for every pound of shrimp that we take from the ocean for food, we throw back another 20 pounds of mostly dead and dying sea life? And fish are being harvested in much the same way, with devastating results for marine ecosystems.</p>
+            <b>Chicken Manure:</b><p>Did you know that the poultry industry on the Delmarva peninsula produces 1 million tons of chicken manure every year? It's a primary source of dangerous bacteria and nutrients that steal oxygen from our waterways. And it’s the main reason why so little progress has been made on restoring the Chesapeake Bay.</p>
+            <b>Fishing Industry:</b> <p> Did you know that virtually every species of seafood is either already severely overfished or being harvested at maximum sustainable levels? There's simply no way to balance recommendations to eat more fish with the state of the world's oceans, & certainly not with a world population about to hit 7 billion!</p>
         </div>
 
 
@@ -26,28 +41,7 @@ export default function Fascinating() {
 
 
 
- 
 
-
-
-
-
-// Egg Industry: You might not know that the egg industry has no use for newborn male chicks, so they are routinely tossed into plastic bags with hundreds of others and left to smother. Free range egg production is typically no different.
-
-// Farmed Animals have individual personalities and love their lives just as we do. Our taste for meat supports an industry that confines and houses them in deplorable conditions; that deprives them of fresh air, sunlight, and freedom of movement; that frustrates nearly every need and natural instinct. How do we feel about this…
- 
-
-// EARTH FRIENDLY FOOD CHOICES: Did you know…
-
-// Climate Change: A recent UN report says that livestock produce more climate-changing greenhouse gases than do all forms of transportation combined. The human appetite for animal flesh is also a driving force behind air and water pollution, soil erosion, deforestation, and fresh water scarcity. Our meat eating habit poses a serious threat to our future.
-
-// Modern meat production uses massive amounts of water, grains, fossil fuels and other resources to convert plant foods, which are naturally low in fat, high in fiber, and contain no cholesterol at all, into a food that is high in fat, high in cholesterol, and contains no fiber at all.
-
-// Shrimp & Fish: Did you know that for every pound of shrimp that we take from the ocean for food, we throw back another 20 pounds of mostly dead and dying sea life? And fish are being harvested in much the same way, with devastating results for marine ecosystems.
-
-// Chicken Manure: Did you know that the poultry industry on the Delmarva peninsula produces 1 million tons of chicken manure every year? It's a primary source of dangerous bacteria and nutrients that steal oxygen from our waterways. And it’s the main reason why so little progress has been made on restoring the Chesapeake Bay.
-
-// Fishing Industry: Did you know that virtually every species of seafood is either already severely overfished or being harvested at maximum sustainable levels? There's simply no way to balance recommendations to eat more fish with the state of the world's oceans, & certainly not with a world population about to hit 7 billion!
 
 // Hunger: Industrialized meat production is very inefficient, and squanders precious resources that could be used alleviate hunger. 80% of American farmland is used to grow grains, beans, and grasses to feed livestock. Our farms could provide for about 7 times as many people who adhere to a purely plant-based diet.
 
