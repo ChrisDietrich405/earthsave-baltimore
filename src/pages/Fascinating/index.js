@@ -34,6 +34,13 @@ export default function Fascinating() {
             <b>Shrimp & Fish:</b> <p> Did you know that for every pound of shrimp that we take from the ocean for food, we throw back another 20 pounds of mostly dead and dying sea life? And fish are being harvested in much the same way, with devastating results for marine ecosystems.</p>
             <b>Chicken Manure:</b><p>Did you know that the poultry industry on the Delmarva peninsula produces 1 million tons of chicken manure every year? It's a primary source of dangerous bacteria and nutrients that steal oxygen from our waterways. And it’s the main reason why so little progress has been made on restoring the Chesapeake Bay.</p>
             <b>Fishing Industry:</b> <p> Did you know that virtually every species of seafood is either already severely overfished or being harvested at maximum sustainable levels? There's simply no way to balance recommendations to eat more fish with the state of the world's oceans, & certainly not with a world population about to hit 7 billion!</p>
+            <b>Hunger:</b> <p> Industrialized meat production is very inefficient, and squanders precious resources that could be used alleviate hunger. 80% of American farmland is used to grow grains, beans, and grasses to feed livestock. Our farms could provide for about 7 times as many people who adhere to a purely plant-based diet.</p>
+            <h4>Personal Meaning, Spirituality, Peace</h4>
+            <b>Early Native Americans</b><p> hunted animals out of necessity and revered them as their brothers and sisters who, as they believed, were offering their bodies willingly so that others may live. Indians referred to the white man's livestock as "slave animals". Which of us, who has seen the way animals are treated in today's mass production of meat, dairy, and eggs, could imagine that any living being would go willingly into that process? And where is our reverence when we are killing purely for our own comforts… Where is the reverence when our food choices are damaging our own health and the health of the earth…</p>
+            <b>Will Tuttle, PhD,</b><p> author of "The World Peace Diet", sees animal agriculture - which requires a desensitization to violence - as a root cause of oppression, exploitation and spiritual disconnectedness. Such a reduction of essential feelings, awareness, and intelligence serves to perpetuate violence & war.</p>
+            <b>Adopting a plant based diet</b><p> is one of the most loving things we can do. It’s a way of loving ourselves enough to really care about our health and our time left on earth; a way of loving and respecting animals enough to allow them their own place in nature, aside from what they can do for us; and a way of loving our planet enough to allow its beauty and resources, and its magical healing properties to be here for generations yet to come.</p>
+            <b>We’ve been blessed</b><p> with bodies that don't require us to take the lives and the freedom of those with whom we share the planet. As we begin to eat and live more simply and sustainably, we bring our lives into greater alignment with our true peaceful nature. We grow in wisdom and share the joy of living with an ever broadening circle of friends.</p>
+        
         </div>
 
 
@@ -43,17 +50,10 @@ export default function Fascinating() {
 
 
 
-// Hunger: Industrialized meat production is very inefficient, and squanders precious resources that could be used alleviate hunger. 80% of American farmland is used to grow grains, beans, and grasses to feed livestock. Our farms could provide for about 7 times as many people who adhere to a purely plant-based diet.
 
-// Personal Meaning, Spirituality, Peace
 
-// Early Native Americans hunted animals out of necessity and revered them as their brothers and sisters who, as they believed, were offering their bodies willingly so that others may live. Indians referred to the white man's livestock as "slave animals". Which of us, who has seen the way animals are treated in today's mass production of meat, dairy, and eggs, could imagine that any living being would go willingly into that process? And where is our reverence when we are killing purely for our own comforts… Where is the reverence when our food choices are damaging our own health and the health of the earth…
 
-// Will Tuttle, PhD, author of "The World Peace Diet", sees animal agriculture - which requires a desensitization to violence - as a root cause of oppression, exploitation and spiritual disconnectedness. Such a reduction of essential feelings, awareness, and intelligence serves to perpetuate violence & war.
 
-// Adopting a plant based diet is one of the most loving things we can do. It’s a way of loving ourselves enough to really care about our health and our time left on earth; a way of loving and respecting animals enough to allow them their own place in nature, aside from what they can do for us; and a way of loving our planet enough to allow its beauty and resources, and its magical healing properties to be here for generations yet to come.
-
-// We’ve been blessed with bodies that don't require us to take the lives and the freedom of those with whom we share the planet. As we begin to eat and live more simply and sustainably, we bring our lives into greater alignment with our true peaceful nature. We grow in wisdom and share the joy of living with an ever broadening circle of friends.
 
  
 // ~QUOTES of Note~ HEALTHIER FOOD CHOICES
