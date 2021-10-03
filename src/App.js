@@ -16,11 +16,9 @@ import UpcomingEvents from "./pages/UpcomingEvents"
 
 import Navbar from "./components/Navbar"
 import Sidebar from "./components/Sidebar"
-
+import Footer from "./components/Footer"
 
 import './App.scss';
-
-/////////////////////////////////////////
 
 import { TiNews, 
          ImQuotesLeft, 
@@ -32,6 +30,7 @@ import { TiNews,
 
 function App() {
   return (
+    
     <Router>
       <div className="App">
         <Navbar />
@@ -101,6 +100,7 @@ function App() {
               <Route path="/upcoming-events" component={UpcomingEvents}/>
             </Switch>
           </div>
+          
           <div className="app-sidebar">
           <h3>Upcoming Events</h3>  
           <Sidebar links={
@@ -112,9 +112,13 @@ function App() {
                     component: UpcomingEvents                },      
             ]
         }/>
+        
           </div>
+          
         </div>
+        
       </div>
+      <Footer/>
     </Router>
   );
 }
