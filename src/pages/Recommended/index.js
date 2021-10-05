@@ -45,30 +45,24 @@ export default function Recommended() {
             <Link to="//www.vegsource.org">http://www.vegsource.org/</Link>
             <br />
             <p><b>T. Colin Campbell Foundation Newsletter:</b>Dr. Campbell is the nutritional biochemist from Cornell University who led the huge and comprehensive Cornell/Oxford/China Health Project, and who wrote the book <b>China Study</b>. That study provided some of the best scientific documentation showing the health sustaining effects of a plant centered diet. The newsletter lets us connect with Dr. Campbell and learn about healthy eating. See . You may subscribe by writing info=tcolincampbell.org@mcsv9.net.</p>
+            <h4>~ANIMAL ADVOCACY~</h4>
+            <br />
+            <p><b> Humane League of Baltimore</b>organizes peaceful demonstrations, food samplings, and social gatherings to educate people and help end animal suffering. http://www.baltimoreanimalrights.com/  </p>
+            <br/>
+            <p><b>Vegan Outreach</b>publishes a variety of educational pamphlets, including "Why Vegan", and "Even if You Like Meat". Their Adopt-a-Campus program has been highly effective outreach effort.</p>
+            <p> http://www.veganoutreach.org/</p>
+            <br/>
+            <p><b>Compassion Over Killing,</b>in Washington, DC, is one of the most effective nonprofits working to promote vegetarianism and help farmed animals. http://www.cok.net/</p>
+            <br/>
+            <p><b>Humane Society of the US</b>is doing great work to help all animals, and does much to help protect farmed animals.</p>
+            <p>http://www.hsus.org/ </p>
+            <br/>
+            <h4>~ANIMAL SANCTUARIES~ </h4>
+            <br/>
+            <p><b>Poplar Spring Animal Sanctuary,</b>in Poolesville, MD, is the nearest farmed animal sanctuary to Baltimore.</p>
+            <p>http://www.animalsanctuary.org/</p>
+            <p><b>Farm Sanctuary </b>has locations in California and in New York and offers frequent educational opportunities.</p>
         </div>
     )
-}
+} 
 
-
- 
-// // ~ANIMAL ADVOCACY~
-
-
-// // Humane League of Baltimore organizes peaceful demonstrations, food samplings, and social gatherings to educate people and help end animal suffering. http://www.baltimoreanimalrights.com/  
-
-// // Vegan Outreach publishes a variety of educational pamphlets, including "Why Vegan", and "Even if You Like Meat". Their Adopt-a-Campus program has been highly effective outreach effort.
-// // http://www.veganoutreach.org/
-
-// // Compassion Over Killing, in Washington, DC, is one of the most effective nonprofits working to promote vegetarianism and help farmed animals. http://www.cok.net/
-
-// // Humane Society of the US is doing great work to help all animals, and does much to help protect farmed animals.
-// // http://www.hsus.org/ 
-
-
- 
-// // ~ANIMAL SANCTUARIES~ 
-
-// // Poplar Spring Animal Sanctuary, in Poolesville, MD, is the nearest farmed animal sanctuary to Baltimore.
-// // http://www.animalsanctuary.org/
-
-// // Farm Sanctuary has locations in California and in New York and offers frequent educational opportunities.
