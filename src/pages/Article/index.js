@@ -1,3 +1,5 @@
+import Footer from "../../components/Footer"
+
 export default function Article() {
     return (
         <div>
@@ -34,6 +36,7 @@ export default function Article() {
             <br />
             <p>*2. A 2006 U.N. report, “Livestock’s Long Shadow”, pointed to animal agriculture as the primary source of climate changing greenhouse gases, its effects more damaging than all forms of transportation combined.</p>
             <p><b>Don Robertson</b> is founding director of the nonprofit group <b>Earthsave Baltimore</b>, which hosts a monthly educational vegan dinner series in Owings Mills and two monthly vegetarian discussion groups, one in Towson, and one in Pikesville. He offers supportive information and advice on diet and lifestyle change at , on his Facebook page as Earthsaverdon, and on the Facebook group page for Earthsave Baltimore.</p>
+        <Footer/>
         </div>
     )
 }

@@ -1,8 +1,8 @@
-import useDevice from "../../hooks/useDevice"
+import Footer from "../../components/Footer"
 
 export default function Fascinating() {
     
-    const dimensions = useDevice()
+  
     return (
 
         <div>
@@ -110,6 +110,7 @@ export default function Fascinating() {
             <br/>
             <p><b>"Nothing will benefit human health</b> and increase chances for survival of life on Earth as much as the evolution to a vegetarian diet."</p>
             <p><b>~Albert Einstein~ </b> Physicist, Nobel Prize 1921</p>
+            <Footer/>
         
         </div>
 

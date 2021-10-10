@@ -30,6 +30,7 @@ import { TiNews,
 
 function App() {
   return (
+    <>
     
     <Router>
       <div className="App">
@@ -114,12 +115,15 @@ function App() {
         }/>
         
           </div>
-          
+       
         </div>
         
       </div>
-      <Footer/>
+     
     </Router>
+    
+     
+    </>
   );
 }
 

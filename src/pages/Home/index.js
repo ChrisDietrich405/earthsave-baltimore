@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 
 import Slideshow from "../../components/Slideshow"
 import Sidebar from "../../components/Sidebar"
+import Footer from "../../components/Footer"
 
 
 
@@ -12,7 +13,7 @@ export default function Home() {
         <div className="home-container">
            
             <Slideshow />
-            
+            <Footer/>
         </div> 
     )
 }

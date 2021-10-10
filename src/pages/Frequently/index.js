@@ -1,3 +1,5 @@
+import Footer from "../../components/Footer"
+
 export default function Frequently() {
     return (
         <div>
@@ -36,10 +38,8 @@ export default function Frequently() {
             <p>Those who are truly concerned about the possible suffering of plants could greatly reduce plant suffering by eating fewer animal products. That dietary change would significantly reduce the number of corn, oats, and soybean plants that are killed each year to form the mountains of grains that are required to produce small amounts of meat.</p>
             <br />
             <p>They might even want to consider a diet of fruit, nuts, and seeds, which doesn't require the taking of animal or plant lives.</p>
+            <Footer/>
         </div>
     )   
 }
 
-// 
-
-// 

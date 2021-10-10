@@ -1,3 +1,5 @@
+import Footer from "../../components/Footer"
+
 export default function Restaurants() {
     return (
         <div>
@@ -33,6 +35,7 @@ export default function Restaurants() {
             <p>Extensive restaurant listings can be found at the VegBaltimore site at and the Vegetarian Resource Group site at</p>
             <br />
             <p> A free booklet called "The Vegetarian Guide" , with restaurant and health food grocery listings from the VegBaltimore site is available at all Earthsave events and tablings. Be sure to pick one up!</p>
+            <Footer/>
         </div>
     )
 }

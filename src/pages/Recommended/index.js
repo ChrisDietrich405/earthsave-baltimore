@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom"
 
+import Footer from "../../components/Footer"
+
+import "./styles.scss"
+
 export default function Recommended() {
     return (
-        <div>
+        <div className="page-container">
             <h3>Recommendended Resources</h3>
             <br/>
             <h4>BOOKS</h4>
@@ -62,6 +66,7 @@ export default function Recommended() {
             <p><b>Poplar Spring Animal Sanctuary,</b>in Poolesville, MD, is the nearest farmed animal sanctuary to Baltimore.</p>
             <p>http://www.animalsanctuary.org/</p>
             <p><b>Farm Sanctuary </b>has locations in California and in New York and offers frequent educational opportunities.</p>
+            <Footer/>
         </div>
     )
 } 

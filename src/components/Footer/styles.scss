@@ -1,4 +1,13 @@
-p {
-    display: flex; 
-    justify-content: center; 
+.footer-container {
+    background: green; 
+    height: 400px; 
+    margin-top: 3rem;
+    display: block; 
+
+
+    p {
+        display: flex; 
+        justify-content: center; 
+    }
 }
+
