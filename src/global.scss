@@ -1,6 +1,5 @@
 body {
-    height: 100vh; 
-    margin-bottom: 3rem; 
+    background-color: #edf8f4;
 }
 
 p {
@@ -11,10 +10,15 @@ b {
     display: inline; 
 }
 
-h5 {
-    font-size: .7rem; 
+h2 {
+    margin-bottom: 1rem;  
+    display: block; 
 }
 
 .page-container {
-    margin-bottom: 3rem;
+    min-height: calc(100% - 30%); 
+    background: #fff;
+    padding: 20px;
 }
+
+

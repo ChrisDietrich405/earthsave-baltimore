@@ -2,11 +2,10 @@ import Footer from "../../components/Footer"
 
 export default function Fascinating() {
     
-  
     return (
 
-        <div>
-            <h3>Fascinating Facts and Quotes About Food</h3>
+        <div className="page-container">
+            <h2>Fascinating Facts and Quotes About Food</h2>
             <br/>
             <h4>HEALTHIER FOOD CHOICES: Did you know...</h4>
             <br/>
@@ -110,7 +109,6 @@ export default function Fascinating() {
             <br/>
             <p><b>"Nothing will benefit human health</b> and increase chances for survival of life on Earth as much as the evolution to a vegetarian diet."</p>
             <p><b>~Albert Einstein~ </b> Physicist, Nobel Prize 1921</p>
-            <Footer/>
         
         </div>
 

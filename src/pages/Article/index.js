@@ -1,11 +1,12 @@
-import Footer from "../../components/Footer"
+
 
 export default function Article() {
     return (
-        <div>
-            <h5>Article: The He(art) of Gentle Persuasion</h5>
+        <div className="page-container">
+            <h2>Article: The He(art) of Gentle Persuasion</h2>
             <p> <b>The He(art) of Gentle Persuasion</b>(Published February, 2012, in On Purpose Woman magazine) </p>
-            <p>by<b>Don Robertson</b></p>
+            <p>by<b> Don Robertson</b></p>
+            <br />
             <p>I can still recall my early childhood years, and the special place that animals held in my heart. And I remember how stunned and saddened I was to learn the awful truth - that we kill animals for food.</p>
             <br />
             <p>Vegetarians had gained my admiration early on for the special effort they make to help animals each day. I understood the important role they play in demonstrating to us that people can be healthy without eating meat.</p>
@@ -35,8 +36,8 @@ export default function Article() {
             <p> *1. Whereas vegetarians avoid eating animal flesh, and thus exclude all meat, fish, and fowl from their diet, vegans try to avoid eating, wearing, or using any products that were derived from animals or that involve animal exploitation. So their diet is free of animal flesh, dairy products, and eggs.</p>
             <br />
             <p>*2. A 2006 U.N. report, “Livestock’s Long Shadow”, pointed to animal agriculture as the primary source of climate changing greenhouse gases, its effects more damaging than all forms of transportation combined.</p>
+            <br />
             <p><b>Don Robertson</b> is founding director of the nonprofit group <b>Earthsave Baltimore</b>, which hosts a monthly educational vegan dinner series in Owings Mills and two monthly vegetarian discussion groups, one in Towson, and one in Pikesville. He offers supportive information and advice on diet and lifestyle change at , on his Facebook page as Earthsaverdon, and on the Facebook group page for Earthsave Baltimore.</p>
-        <Footer/>
         </div>
     )
 }

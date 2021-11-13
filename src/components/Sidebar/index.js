@@ -7,13 +7,12 @@ import "./styles.scss"
 
 export default function Sidebar(props) {
     const location = useLocation()
-
+    
     return (
 
         <div className="sidebar-container">
             <div className="sidebar-left">
                 <div className="sidebar-title">
-                    {/* <h4>{ props.title }</h4> */}
                     <ul></ul>
                 </div>
                 <ul>
@@ -21,7 +20,6 @@ export default function Sidebar(props) {
                     <li>
                         {link.icon}
                         <Link to={link.path} className={classNames("sidebar-subtitle", { active_item: location.pathname == link.path } )}>
-                            
                             {parser(link.title)}
                         </Link>
                     </li>

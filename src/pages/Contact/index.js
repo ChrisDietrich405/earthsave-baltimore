@@ -4,17 +4,19 @@ import "./styles.css"
 
 export default function Contact() {
     return (
-        <div>
-            <h3>Contact</h3>
+        <div className="page-container">
+            <h2>Contact</h2>
             <p>EARTHSAVE BALTIMORE</p>
             <p>Organizer: Don Robertson</p>
             <p>Email Earthsave Baltimore at Baltimore@Earthsave.org, call us at 410-252-3043, or write us at 517 Talbott Ave., Lutherville, MD, 21093. Website is</p>
+            <br />
             <p>EARTHSAVE INTERNATIONAL</p>
             <p>Board President: Jeff Nelson</p>
             <p>20555 Devonshire St., Ste. 105,</p>
             <p>Chatsworth, CA 91311,</p>
             <br />
-            <p>info@earthsave.org</p>
+            <a href="http://www.earthsave.org/">http://www.earthsave.org/</a>
+            <br />
             <br />
             <p>EARTHSAVE CHAPTERS AND AFFILIATES</p>
             <br />
@@ -87,8 +89,7 @@ export default function Contact() {
             <br />
             <p>Utah</p>    
             <p>Salt Lake City: Jennifer Russell-Fenus</p>    
-            <p>Email: slc@earthsave.org</p> 
-            <Footer/>         
+            <p>Email: slc@earthsave.org</p>      
         </div>
     )   
 }   

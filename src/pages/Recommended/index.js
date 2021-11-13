@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 import Footer from "../../components/Footer"
 
 import "./styles.scss"
@@ -7,9 +5,9 @@ import "./styles.scss"
 export default function Recommended() {
     return (
         <div className="page-container">
-            <h3>Recommendended Resources</h3>
+            <h2>Recommendended Resources</h2>
             <br/>
-            <h4>BOOKS</h4>
+            <h3>BOOKS</h3>
             <p>These books are available in nearly all public libraries and bookstores. They are also available at the book sales table at all Earthsave events.</p>
             <br />
             <p><b>"FOOD REVOLUTION"</b>, by Earthsave founder John Robbins, gives current, well-documented information on all the best reasons, including health, animal protection, and ecology, to adopt a plant centered diet. Food Revolution is similar in style and content to Robbins' classic best seller DIET FOR A NEW AMERICA.</p>
@@ -36,37 +34,47 @@ export default function Recommended() {
             <br />
             <p><b>~VEGETARIANISM & VEGANISM~</b></p>
             <br />
-            <p><b>Earthsave International</b>offers an opportunity to learn and grow with VegPledge, and also features Earthsave TV online educational videos and many helpful publications you may read for free online.</p>
-            <Link to="//earthsave.org/">http://earthsave.org/</Link>
+            <p><b>Earthsave International</b> offers an opportunity to learn and grow with VegPledge, and also features Earthsave TV online educational videos and many helpful publications you may read for free online.</p>
+            <a href="https://www.earthsave.org">http://earthsave.org/</a>
+            <br />
             <br />
             <p><b>North American Vegetarian Society</b>hosts Vegetarian Summerfest, in Johnstown, PA, one of the best educational opportunites available.</p>
-            <Link to="//www.navs-online.org/"> http://www.navs-online.org/</Link>
+            <a href="http://www.navs-online.org/">http://www.navs-online.org/</a>
             <br />
-            <p><b>Vegetarian Resource Group</b>has a real helpful website that includes a nationwide guide to vegetarian and veg-friendly restaurants.</p>
-            <Link to="//www.vrg.org/"> http://www.vrg.org</Link>
             <br />
-            <p><b>VegSource</b>website offers free online viewings of many helpful educational videos.</p>
-            <Link to="//www.vegsource.org">http://www.vegsource.org/</Link>
+            <p><b>Vegetarian Resource Group</b> has a real helpful website that includes a nationwide guide to vegetarian and veg-friendly restaurants.</p>
+            <a href="http://www.vrg.org"> http://www.vrg.org</a>
+            <br />
+            <br />
+            <p><b>VegSource</b> website offers free online viewings of many helpful educational videos.</p>
+            <a href="https://vegsource.com/"> https://vegsource.com/</a>
+            <br />
             <br />
             <p><b>T. Colin Campbell Foundation Newsletter:</b>Dr. Campbell is the nutritional biochemist from Cornell University who led the huge and comprehensive Cornell/Oxford/China Health Project, and who wrote the book <b>China Study</b>. That study provided some of the best scientific documentation showing the health sustaining effects of a plant centered diet. The newsletter lets us connect with Dr. Campbell and learn about healthy eating. See . You may subscribe by writing info=tcolincampbell.org@mcsv9.net.</p>
             <h4>~ANIMAL ADVOCACY~</h4>
             <br />
-            <p><b> Humane League of Baltimore</b>organizes peaceful demonstrations, food samplings, and social gatherings to educate people and help end animal suffering. http://www.baltimoreanimalrights.com/  </p>
+            <p><b> Humane League of Baltimore</b> organizes peaceful demonstrations, food samplings, and social gatherings to educate people and help end animal suffering. http://www.baltimoreanimalrights.com/ THIS LINK DOESN'T WORK </p>
             <br/>
-            <p><b>Vegan Outreach</b>publishes a variety of educational pamphlets, including "Why Vegan", and "Even if You Like Meat". Their Adopt-a-Campus program has been highly effective outreach effort.</p>
-            <p> http://www.veganoutreach.org/</p>
+            <p><b>Vegan Outreach</b> publishes a variety of educational pamphlets, including "Why Vegan", and "Even if You Like Meat". Their Adopt-a-Campus program has been highly effective outreach effort.</p>
+            <a href="https://veganoutreach.org/">https://veganoutreach.org/</a>
             <br/>
-            <p><b>Compassion Over Killing,</b>in Washington, DC, is one of the most effective nonprofits working to promote vegetarianism and help farmed animals. http://www.cok.net/</p>
+            <br />
+            <p><b>Compassion Over Killing,</b> in Washington, DC, is one of the most effective nonprofits working to promote vegetarianism and help farmed animals. </p>
+            <a href="http://www.cok.net/">http://www.cok.net/</a>
             <br/>
-            <p><b>Humane Society of the US</b>is doing great work to help all animals, and does much to help protect farmed animals.</p>
-            <p>http://www.hsus.org/ </p>
+            <br />
+            <p><b>Humane Society of the US</b> is doing great work to help all animals, and does much to help protect farmed animals.</p>
+            <a href="http://www.hsus.org/">http://www.hsus.org/</a>
+            <br />
             <br/>
             <h4>~ANIMAL SANCTUARIES~ </h4>
-            <br/>
-            <p><b>Poplar Spring Animal Sanctuary,</b>in Poolesville, MD, is the nearest farmed animal sanctuary to Baltimore.</p>
-            <p>http://www.animalsanctuary.org/</p>
-            <p><b>Farm Sanctuary </b>has locations in California and in New York and offers frequent educational opportunities.</p>
-            <Footer/>
+            <br />
+            <p><b>Poplar Spring Animal Sanctuary,</b> in Poolesville, MD, is the nearest farmed animal sanctuary to Baltimore.</p>
+            <a href="http://www.animalsanctuary.org/">http://www.animalsanctuary.org/</a>
+            <br />
+            <br />
+            <p><b>Farm Sanctuary </b> has locations in California and in New York and offers frequent educational opportunities.</p>
+            <a href="https://www.farmsanctuary.org/">https://www.farmsanctuary.org/</a>
         </div>
     )
 } 

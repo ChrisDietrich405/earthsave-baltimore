@@ -2,8 +2,8 @@ import Footer from "../../components/Footer"
 
 export default function Frequently() {
     return (
-        <div>
-            <h3>Frequently Asked Questions</h3>
+        <div className="page-container">
+            <h2>Frequently Asked Questions</h2>
             <p><b>Question - How do vegetarians and vegans get enough protein?</b></p>
             <br />
             <p>Much confusion exists with regard to human protein needs. One otherwise very helpful book, written in the 1960s, called <b>Diet for a Small Planet,</b> actually added to that confusion by needlessly emphasizing the practice of combining various complementary plant proteins, such as beans with rice, in order to create "complete proteins".</p>
@@ -27,6 +27,7 @@ export default function Frequently() {
             <p>To consume animal products in order to survive is one thing. To engage in entirely avoidable meanness, in order to satisfy an indulgence, is quite another and violates the very essence of God's calls to be merciful and peaceful. To kill for pleasure exemplifies greed, a deadly sin, and blatantly goes against God's word.</p>
             <br />
             <p><b>Question - What would we do with all the animals if everyone went vegetarian?</b></p>
+            <br />
             <p>It is true that animal overpopulation would be a major concern if everyone went vegetarian immediately. But such big changes are more likely to happen gradually, which would mean that farmers would just stop breeding so many animals for slaughter, and their populations would dwindle.</p>
             <br />
             <p><b> Question - Aren't vegetarians being inconsistent when they show little or no concern for the suffering of plants?</b></p>
@@ -38,7 +39,6 @@ export default function Frequently() {
             <p>Those who are truly concerned about the possible suffering of plants could greatly reduce plant suffering by eating fewer animal products. That dietary change would significantly reduce the number of corn, oats, and soybean plants that are killed each year to form the mountains of grains that are required to produce small amounts of meat.</p>
             <br />
             <p>They might even want to consider a diet of fruit, nuts, and seeds, which doesn't require the taking of animal or plant lives.</p>
-            <Footer/>
         </div>
     )   
 }
