@@ -4,6 +4,8 @@ import { TiNews } from "react-icons/all"
 import UpcomingEvents from "../../pages/UpcomingEvents"
 import Sidebar from "../Sidebar"
 
+import "./styles.scss"
+
 const links=
   [
       {
@@ -18,9 +20,9 @@ const links=
 
 export default function RightSideBar() {
     return (
-        <div className="app-sidebar">
+        <div className="app-sidebar app-sidebar-right">
             <h3>Upcoming Events</h3> 
-            <Sidebar links={links}/>
+            <Sidebar links={links} className="sidebar-right"/>
         </div>
     )
 }
