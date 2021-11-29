@@ -21,3 +21,22 @@
 .bg4 {
   background-color: purple;
 }
+
+.horizontal-link {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.arrows {
+  display: block;
+}
+
+@media only screen and (min-width: 800px) {
+  .horizontal-links {
+    display: none;
+  }
+
+  .arrows {
+    display: none;
+  }
+}

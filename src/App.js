@@ -44,7 +44,6 @@ function App() {
   return (
     <Router>
       <Navbar2 />
-      <h1>HELLO</h1>
       <HorizontalScroll />
       <div className="home-container">
         <LeftSideBar />
