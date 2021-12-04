@@ -6,7 +6,7 @@ import Sidebar from "../Sidebar"
 
 import "./styles.scss"
 
-const links=
+export const links =
   [
       {
           icon: (<TiNews/>),
@@ -18,6 +18,8 @@ const links=
 
 
 
+
+
 export default function RightSideBar() {
     return (
         <div className="app-sidebar app-sidebar-right">
@@ -26,3 +28,4 @@ export default function RightSideBar() {
         </div>
     )
 }
+

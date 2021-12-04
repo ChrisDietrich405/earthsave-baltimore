@@ -28,15 +28,36 @@
 }
 
 .arrows {
-  display: block;
+  display: none; 
 }
 
-@media only screen and (min-width: 800px) {
-  .horizontal-links {
-    display: none;
+
+.horizontal-links-wrapper {
+  width: 150px; 
+  height: 50px; 
+  border: 1px solid black; 
+  padding: 5px; 
+  display: none; 
+}
+
+@media only screen and (max-width: 800px) {
+  .horizontal-links-wrapper {
+    display: block;
   }
 
   .arrows {
-    display: none;
+    display: flex;
+    align-items: center; 
+    
   }
 }
+
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
