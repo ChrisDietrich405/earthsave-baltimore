@@ -1,53 +1,49 @@
 @keyframes fadeIn {
-    0% {
-      opacity: 0
-    } 
-    100% {
-      opacity: 1
-    }
-  }
-  
-  @keyframes fadeOut {
-    0% {
-      opacity: 1
-    } 
-    100% {
-      opacity: 0
-    }
-  }
-
-  .slideshow-container {
-    height: 70vh; 
-    margin: 0px 0 3rem 0 !important; 
-    width: 67%; 
-    display: flex;
-    justify-content: center;
-  }
-
-  .slideshow-image {
-    position: absolute;
-    width: 62%;
-    height: 77%;
+  0% {
     opacity: 0;
-    background-size: cover;
-    left: 50%;
-    transform: translateX(-50%);
   }
-
-  .active {
-    animation: fadeIn 4s;
+  100% {
+    opacity: 1;
   }
+}
 
-  .inactive {
-    animation: fadeOut 4s;
-  }    
-
-  @media only screen and (max-width: 768px)  {
-    .slideshow-container { 
-      flex: 2;  
-    }
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
   }
-    
-    
-    
-    
+  100% {
+    opacity: 0;
+  }
+}
+
+.slideshow-container {
+  height: 70vh;
+  margin: 0px 0 3rem 0 !important;
+  width: 67%;
+  display: flex;
+  justify-content: center;
+}
+
+.slideshow-image {
+  position: absolute;
+  width: 67%;
+  height: 77%;
+  opacity: 0;
+  background-size: cover;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.active {
+  animation: fadeIn 4s;
+}
+
+.inactive {
+  animation: fadeOut 4s;
+}
+
+@media only screen and (max-width: 768px) {
+  .slideshow-container {
+    flex: 2;
+  }
+}
