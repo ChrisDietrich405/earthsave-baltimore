@@ -1,4 +1,12 @@
-import { TiNews, ImQuotesLeft, GrResources, BsQuestionSquare, GiMedicalPackAlt, BiRestaurant, AiFillHeart } from "react-icons/all";
+import {
+  TiNews,
+  ImQuotesLeft,
+  GrResources,
+  BsQuestionSquare,
+  GiMedicalPackAlt,
+  BiRestaurant,
+  AiFillHeart,
+} from "react-icons/all";
 
 import News from "../../pages/News";
 import Fascinating from "../../pages/Fascinating";
@@ -37,7 +45,7 @@ export const links = [
   },
   {
     icon: <GiMedicalPackAlt />,
-    title: "Local Nutrition &<br> Medical Professionals",
+    title: "Local Nutrition & Medical Professionals",
     path: "/local/local",
     component: Local,
   },
@@ -49,7 +57,7 @@ export const links = [
   },
   {
     icon: <AiFillHeart />,
-    title: "Article: The He(art) <br> of Gentle Persuasion",
+    title: "Article: The He(art) of Gentle Persuasion",
     path: "/article",
     component: Article,
   },

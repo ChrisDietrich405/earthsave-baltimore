@@ -31,7 +31,7 @@ function LeftArrow() {
       className="arrows"
       onClick={() => scrollPrev()}
     >
-      <AiOutlineArrowLeft size={30} />
+      <AiOutlineArrowLeft size={30} className="arrow" />
     </div>
   );
 }

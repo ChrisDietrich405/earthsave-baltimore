@@ -44,11 +44,28 @@
   .horizontal-links-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+
+  .horizontal-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
   }
 
   .arrows {
     display: flex;
     align-items: center;
+    background: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 30px 10px 0 10px;
   }
 }
 
