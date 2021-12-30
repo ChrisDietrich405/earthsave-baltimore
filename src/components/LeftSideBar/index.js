@@ -1,12 +1,12 @@
-import {
-  TiNews,
-  ImQuotesLeft,
-  GrResources,
-  BsQuestionSquare,
-  GiMedicalPackAlt,
-  BiRestaurant,
-  AiFillHeart,
-} from "react-icons/all";
+// import {
+//   TiNews,
+//   ImQuotesLeft,
+//   GrResources,
+//   BsQuestionSquare,
+//   GiMedicalPackAlt,
+//   BiRestaurant,
+//   AiFillHeart,
+// } from "react-icons/all";
 
 import News from "../../pages/News";
 import Fascinating from "../../pages/Fascinating";
@@ -20,43 +20,43 @@ import Sidebar from "../Sidebar";
 
 export const links = [
   {
-    icon: <TiNews />,
+    // icon: <TiNews />,
     title: "News & Events Update",
     path: "/news/news",
     component: News,
   },
   {
-    icon: <ImQuotesLeft />,
+    // icon: <ImQuotesLeft />,
     title: "Fascinating Facts & Quotes",
     path: "/fascinating/fascinating",
     component: Fascinating,
   },
   {
-    icon: <GrResources />,
+    // icon: <GrResources />,
     title: "Recommended Resources",
     path: "/recommended/recommended",
     component: Recommended,
   },
   {
-    icon: <BsQuestionSquare />,
+    // icon: <BsQuestionSquare />,
     title: "Frequently Asked Questions",
     path: "/frequently/frequently",
     component: Frequently,
   },
   {
-    icon: <GiMedicalPackAlt />,
+    // icon: <GiMedicalPackAlt />,
     title: "Local Nutrition & Medical Professionals",
     path: "/local/local",
     component: Local,
   },
   {
-    icon: <BiRestaurant />,
+    // icon: <BiRestaurant />,
     title: "Local Restaurants",
     path: "/restaurants/restaurants",
     component: Restaurants,
   },
   {
-    icon: <AiFillHeart />,
+    // icon: <AiFillHeart />,
     title: "Article: The He(art) of Gentle Persuasion",
     path: "/article",
     component: Article,

@@ -17,7 +17,7 @@
 }
 
 .slideshow-container {
-  height: 70vh;
+  height: 100%;
   margin: 0px 0 3rem 0 !important;
   width: 67%;
   display: flex;
@@ -27,7 +27,7 @@
 .slideshow-image {
   position: absolute;
   width: 67%;
-  height: 77%;
+  height: 100%;
   opacity: 0;
   background-size: cover;
   left: 50%;

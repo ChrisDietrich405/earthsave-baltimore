@@ -20,9 +20,7 @@
     text-align: center;
   }
 
-  a {
-    display: contents;
-    text-decoration: underline;
-    color: #000;
+  #email-underline {
+    text-decoration: underline !important;
   }
 }
