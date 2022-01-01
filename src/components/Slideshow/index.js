@@ -44,13 +44,21 @@ export default function Slideshow() {
         <div
           className="active slideshow-image"
           style={{
-            objectFit: "contain",
+            height: "2000px !important",
+            objectFit: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
             backgroundImage: `url(${slideshow1})`,
           }}
         ></div>
         <div
           className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow2})` }}
+          style={{
+            objectFit: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
+            backgroundImage: `url(${slideshow2})`,
+          }}
         ></div>
         <div
           className="slideshow-image"
@@ -63,6 +71,8 @@ export default function Slideshow() {
         <div
           className="slideshow-image"
           style={{
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
             backgroundImage: `url(${slideshow5})`,
           }}
         ></div>
@@ -76,7 +86,11 @@ export default function Slideshow() {
         ></div>
         <div
           className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow8})` }}
+          style={{
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
+            backgroundImage: `url(${slideshow8})`,
+          }}
         ></div>
         <div
           className="slideshow-image"
@@ -96,7 +110,11 @@ export default function Slideshow() {
         ></div>
         <div
           className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow13})` }}
+          style={{
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
+            backgroundImage: `url(${slideshow13})`,
+          }}
         ></div>
         <div
           className="slideshow-image"

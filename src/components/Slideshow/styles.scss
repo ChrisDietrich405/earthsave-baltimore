@@ -24,10 +24,15 @@
   justify-content: center;
 }
 
+.slideshow {
+  height: 800px !important;
+  background: purple;
+}
+
 .slideshow-image {
   position: absolute;
   width: 67%;
-  height: 100%;
+  height: 100% !important;
   opacity: 0;
   background-size: cover;
   left: 50%;
