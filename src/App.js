@@ -1,3 +1,6 @@
+// the pause will be on Hover
+//I should add arrows left and right
+
 //RESPONSIVITY
 //in tablet version don't have hamburger menu for navbar (keep it the same as the desktop)
 //(navbar) in mobile version have hamburger menu with drop down for donate, membership etc
@@ -38,7 +41,15 @@ import HorizontalScroll from "./components/HorizontalScroll";
 
 import "./App.scss";
 
-import { TiNews, ImQuotesLeft, GrResources, BsQuestionSquare, GiMedicalPackAlt, BiRestaurant, AiFillHeart } from "react-icons/all";
+import {
+  TiNews,
+  ImQuotesLeft,
+  GrResources,
+  BsQuestionSquare,
+  GiMedicalPackAlt,
+  BiRestaurant,
+  AiFillHeart,
+} from "react-icons/all";
 
 function App() {
   return (
