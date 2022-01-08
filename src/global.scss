@@ -12,14 +12,24 @@ b {
   font-family: "Roboto", sans-serif;
 }
 
+h1,
 h2 {
   margin-bottom: 1rem;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
 }
 
 h4 {
   font-family: "Roboto", sans-serif;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  padding-right: 6px;
 }
 
 .page-container {
