@@ -1,18 +1,10 @@
-@keyframes fadeIn {
+@keyframes fade {
   0% {
     opacity: 0;
   }
-  100% {
-    opacity: 1;
-  }
-}
 
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
   100% {
-    opacity: 0;
+    opacity: 0.8;
   }
 }
 
@@ -24,27 +16,52 @@
   justify-content: center;
 }
 
+.slideshow-container:hover {
+  transition: 1s all;
+  .play-btn,
+  .pause-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fade 1s;
+  }
+}
+
 .slideshow {
-  height: 800px !important;
-  background: purple;
+  width: 800px;
+  height: 800px;
 }
 
 .slideshow-image {
-  position: absolute;
-  width: 67%;
-  height: 100% !important;
-  opacity: 0;
-  background-size: cover;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 800px;
+  height: 800px;
+  // position: absolute;
+  // width: 67%;
+  // height: 100% !important;
+  // opacity: 0;
+  // background-size: cover;
+  // left: 50%;
+  // transform: translateX(-50%);
 }
 
 .active {
-  animation: fadeIn 4s;
+  // animation: fade 4s;
 }
 
 .inactive {
-  animation: fadeOut 4s;
+  display: none;
+}
+
+.play-btn,
+.pause-btn {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+  width: 800px;
+  height: 800px;
 }
 
 @media only screen and (max-width: 768px) {

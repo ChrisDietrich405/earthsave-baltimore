@@ -5,7 +5,7 @@ import "./styles.scss";
 export default function Local() {
   return (
     <div className="page-container">
-      <h2>Nutrition & Medical Professionals</h2>
+      <h1>Nutrition & Medical Professionals</h1>
       <h3>
         <b>National Directory of Plant-Based Medical Professionals</b>
       </h3>

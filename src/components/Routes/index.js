@@ -14,7 +14,6 @@ import Donate from "../../pages/Donate";
 import Membership from "../../pages/Membership";
 import Contact from "../../pages/Contact";
 
-import Practice from "../../pages/Practice";
 import Validate from "../../pages/Validate";
 
 export default function Routes() {
@@ -34,7 +33,6 @@ export default function Routes() {
       <Route path="/upcoming-events" component={UpcomingEvents} />
 
       <Route path="validate" component={Validate} />
-      <Route path="practice" component={Practice} />
     </Switch>
   );
 }

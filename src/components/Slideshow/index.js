@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+
+import { AiFillPauseCircle, AiFillPlayCircle } from "react-icons/ai";
+
 import slideshow1 from "../../assets/images/1.jpg";
 import slideshow2 from "../../assets/images/2.jpg";
 import slideshow3 from "../../assets/images/3.jpg";
@@ -18,112 +21,80 @@ import slideshow15 from "../../assets/images/15.jpg";
 import "./styles.scss";
 
 export default function Slideshow() {
+  const imageArray = [
+    slideshow1,
+    slideshow2,
+    slideshow3,
+    slideshow4,
+    slideshow5,
+    slideshow6,
+    slideshow7,
+    slideshow8,
+    slideshow9,
+    slideshow10,
+    slideshow11,
+    slideshow12,
+    slideshow13,
+    slideshow14,
+    slideshow15,
+  ];
+
+  const [pause, setPause] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  console.log(index);
+
   useEffect(() => {
-    const divs = document.querySelectorAll(".slideshow div");
-    let index = 1;
-
-    const interval = setInterval(function () {
-      if (document.querySelector(".inactive")) {
-        document.querySelector(".inactive").classList.remove("inactive");
+    const interval = setInterval(() => {
+      if (pause) {
+        // clearInterval(interval);
+        return;
       }
-
-      if (document.querySelector(".active")) {
-        document.querySelector(".active").classList.add("inactive");
-        document.querySelector(".active").classList.remove("active");
+      if (index === imageArray.length - 1) {
+        setIndex(0);
+      } else {
+        setIndex(index + 1);
       }
-      divs[index % divs.length].classList.add("active");
-      index++;
-    }, 3500);
-
+    }, 3000);
+    console.log("gekki", interval);
     return () => clearInterval(interval);
-  }, []);
+  }, [index, pause]);
+
+  // const pauseAndResume = () => {
+  //   if (pause === false) {
+  //     setPause(true);
+  //   } else {
+  //     setPause(false);
+  //   }
+  // };
 
   return (
-    <div className="slideshow-container">
+    <div className="slideshow-container" onClick={() => setPause(!pause)}>
+      {/* <button >pause</button> */}
+
       <div className="slideshow">
-        <div
-          className="active slideshow-image"
-          style={{
-            height: "2000px !important",
-            objectFit: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            backgroundImage: `url(${slideshow1})`,
-          }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{
-            objectFit: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            backgroundImage: `url(${slideshow2})`,
-          }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow3})` }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow4})` }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            backgroundImage: `url(${slideshow5})`,
-          }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow6})` }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow7})` }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            backgroundImage: `url(${slideshow8})`,
-          }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow9})` }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow10})` }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow11})` }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow12})` }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            backgroundImage: `url(${slideshow13})`,
-          }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow14})` }}
-        ></div>
-        <div
-          className="slideshow-image"
-          style={{ backgroundImage: `url(${slideshow15})` }}
-        ></div>
+        {pause ? (
+          <div className="pause-btn">
+            <AiFillPauseCircle size={60} />
+          </div>
+        ) : (
+          <div className="play-btn">
+            <AiFillPlayCircle size={60} />
+          </div>
+        )}
+        {imageArray.map((image, i) => (
+          <img
+            className={`${index === i ? "active" : "inactive"} slideshow-image`}
+            // style={{
+            //   height: "2000px !important",
+            //   objectFit: "cover",
+            //   backgroundRepeat: "no-repeat",
+            //   backgroundSize: "contain",
+            //   backgroundImage: `url(${image})`,
+            // }}
+            src={image}
+          ></img>
+        ))}
       </div>
     </div>
   );
