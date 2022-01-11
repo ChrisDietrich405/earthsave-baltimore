@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { AiFillPauseCircle, AiFillPlayCircle } from "react-icons/ai";
+import { FaPlay, FaPause } from "react-icons/fa";
 
 import slideshow1 from "../../assets/images/1.jpg";
 import slideshow2 from "../../assets/images/2.jpg";
@@ -75,11 +75,11 @@ export default function Slideshow() {
       <div className="slideshow">
         {pause ? (
           <div className="pause-btn">
-            <AiFillPauseCircle size={60} />
+            <FaPlay size={60} />
           </div>
         ) : (
           <div className="play-btn">
-            <AiFillPlayCircle size={60} />
+            <FaPause size={60} />
           </div>
         )}
         {imageArray.map((image, i) => (

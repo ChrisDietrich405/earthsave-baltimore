@@ -10,7 +10,7 @@
 
 .slideshow-container {
   height: 100%;
-  margin: 0px 0 3rem 0 !important;
+  margin: 0px auto !important;
   width: 67%;
   display: flex;
   justify-content: center;
@@ -28,12 +28,14 @@
 }
 
 .slideshow {
-  width: 800px;
-  height: 800px;
+  margin-bottom: 100px;
+  width: 950px;
+  height: 700px;
 }
 
 .slideshow-image {
-  width: 800px;
+  margin: 0 auto 100px;
+  width: 950px;
   height: 800px;
   // position: absolute;
   // width: 67%;
@@ -60,12 +62,16 @@
   align-items: center;
   color: black;
 
-  width: 800px;
+  width: 900px;
   height: 800px;
 }
 
 @media only screen and (max-width: 768px) {
+  .slideshow {
+    width: 500px;
+  }
   .slideshow-image {
-    width: 100%;
+    width: 400px;
+    height: 400px;
   }
 }

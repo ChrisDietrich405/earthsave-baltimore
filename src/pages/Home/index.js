@@ -1,16 +1,14 @@
-import Slideshow from "../../components/Slideshow"
+import Slideshow from "../../components/Slideshow";
 
 export default function Home() {
-    return (
-        <div className="slideshow-container">
-            <Slideshow/>
-        </div>
-    )
+  return (
+    <div>
+      <Slideshow />
+    </div>
+  );
 }
 
-
 // // import { Link } from "react-router-dom"
-
 
 // import News from "../News"
 // import Fascinating from "../Fascinating"
@@ -26,18 +24,18 @@ export default function Home() {
 // import Routes from "../../components/Routes"
 // // import Footer from "../../components/Footer"
 
-// import { TiNews, 
-//     ImQuotesLeft, 
-//     GrResources, 
-//     BsQuestionSquare, 
-//     GiMedicalPackAlt, 
-//     BiRestaurant, 
+// import { TiNews,
+//     ImQuotesLeft,
+//     GrResources,
+//     BsQuestionSquare,
+//     GiMedicalPackAlt,
+//     BiRestaurant,
 //     AiFillHeart } from "react-icons/all"
 
 // import "./styles.scss"
 
-// export default function Home() { 
-//     return (   
+// export default function Home() {
+//     return (
 //         <div className="home-container">
 //            <Routes>
 //                         <Sidebar links={
@@ -54,7 +52,7 @@ export default function Home() {
 //                       path: "/fascinating/fascinating",
 //                       component: Fascinating
 //                   },
-//                   { 
+//                   {
 //                       icon: (<GrResources/>),
 //                       title: "Recommended Resources",
 //                       path: "/recommended/recommended",
@@ -84,25 +82,25 @@ export default function Home() {
 //                       path: "/article/article",
 //                       component: Article
 //                   }
-                
+
 //               ]
 //           }/>
-           
+
 //             <Slideshow />
 
 //             <div className="app-sidebar">
-//             <h3>Upcoming Events</h3>  
+//             <h3>Upcoming Events</h3>
 //             <Sidebar links={
 //               [
 //                   {
 //                       icon: (<TiNews/>),
 //                       title: "No Upcoming Events Available",
 //                       path: "/upcoming-events/upcoming-events",
-//                       component: UpcomingEvents                },      
+//                       component: UpcomingEvents                },
 //               ]
 //           }/>
 //             </div>
 //             </Routes>
-//         </div> 
+//         </div>
 //     )
 // }
