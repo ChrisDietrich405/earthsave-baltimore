@@ -18,6 +18,9 @@ import slideshow13 from "../../assets/images/13.jpg";
 import slideshow14 from "../../assets/images/14.jpg";
 import slideshow15 from "../../assets/images/15.jpg";
 
+import PlayNormal from "../../assets/images/PlayNormal.svg";
+import PauseNormal from "../../assets/images/PauseNormal.svg";
+
 import "./styles.scss";
 
 export default function Slideshow() {
@@ -60,14 +63,6 @@ export default function Slideshow() {
     return () => clearInterval(interval);
   }, [index, pause]);
 
-  // const pauseAndResume = () => {
-  //   if (pause === false) {
-  //     setPause(true);
-  //   } else {
-  //     setPause(false);
-  //   }
-  // };
-
   return (
     <div className="slideshow-container" onClick={() => setPause(!pause)}>
       {/* <button >pause</button> */}
@@ -75,11 +70,11 @@ export default function Slideshow() {
       <div className="slideshow">
         {pause ? (
           <div className="pause-btn">
-            <FaPlay size={60} />
+            <img className="slideshow-btn" src={PlayNormal} />
           </div>
         ) : (
           <div className="play-btn">
-            <FaPause size={60} />
+            <img className="slideshow-btn" src={PauseNormal} />
           </div>
         )}
         {imageArray.map((image, i) => (
