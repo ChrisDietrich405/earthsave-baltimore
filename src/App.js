@@ -53,18 +53,20 @@ import {
 
 function App() {
   return (
-    <Router>
-      <Navbar2 />
-      <HorizontalScroll />
-      <div className="home-container">
-        <LeftSideBar />
-        <div>
-          <Routes />
-          <Footer />
+    <div className="app-wrapper">
+      <Router>
+        <Navbar2 />
+        <HorizontalScroll />
+        <div className="home-container">
+          <LeftSideBar />
+          <div>
+            <Routes />
+            <Footer />
+          </div>
+          <RightSideBar />
         </div>
-        <RightSideBar />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 

@@ -65,8 +65,6 @@ export default function Slideshow() {
 
   return (
     <div className="slideshow-container" onClick={() => setPause(!pause)}>
-      {/* <button >pause</button> */}
-
       <div className="slideshow">
         {pause ? (
           <div className="pause-btn">
@@ -80,27 +78,10 @@ export default function Slideshow() {
         {imageArray.map((image, i) => (
           <img
             className={`${index === i ? "active" : "inactive"} slideshow-image`}
-            // style={{
-            //   height: "2000px !important",
-            //   objectFit: "cover",
-            //   backgroundRepeat: "no-repeat",
-            //   backgroundSize: "contain",
-            //   backgroundImage: `url(${image})`,
-            // }}
             src={image}
           ></img>
         ))}
       </div>
     </div>
   );
-}
-
-{
-  /* <div className="slideshow-container">
-      <div className="slideshow">
-          <div className="active slideshow-image" style={{backgroundImage: `url(${slideshow1})`}}></div>  
-          <div className="slideshow-image" style={{backgroundImage: `url(${slideshow2})`}}></div>
-          <div className="slideshow-image" style={{backgroundImage: `url(${slideshow3})`}}></div>
-      </div>
-      </div> */
 }

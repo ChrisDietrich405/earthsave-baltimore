@@ -40,15 +40,17 @@
   display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
   .horizontal-links-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    width: 800px;
+    height: 200px;
   }
 
   .horizontal-link {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,6 +68,24 @@
     height: 40px;
     width: 40px;
     margin: 30px 10px 0 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .horizontal-links-wrapper {
+    width: 700px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .horizontal-links-wrapper {
+    width: 300px;
+    margin: 2px;
+  }
+
+  .horizontal-link {
+    width: 300px;
   }
 }
 
