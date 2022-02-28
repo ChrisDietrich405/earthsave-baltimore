@@ -65,7 +65,7 @@ export const links = [
 
 export default function LeftSideBar() {
   return (
-    <div className="app-sidebar">
+    <div>
       <Sidebar links={links} />
     </div>
   );
