@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 import { links } from "../LeftSideBar";
 import { links as rightLinks } from "../RightSideBar";
@@ -7,21 +7,31 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/all";
 
 import "./styles.scss";
 
-function App() {
+function HorizontalScroll() {
+  const [currentLinksIndex, setCurrentLinksIndex] = useState(0);
   return (
-    <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
-      {[...links, ...rightLinks].map((link, index) => (
-        <div className="horizontal-links-wrapper" itemId={index}>
-          <Link to={link.path} className="horizontal-link">
-            {link.title}
-          </Link>
-        </div>
-      ))}
-    </ScrollMenu>
+    <div className="horizontal-scroll-container">
+      {/* <LeftArrow
+        changeCurrentLink={() => setCurrentLinksIndex(currentLinksIndex - 1)}
+      />
+      <div className="horizontal-link">{rightLinks[currentLinksIndex]}</div>
+      <RightArrow
+        changeCurrentLink={() => setCurrentLinksIndex(currentLinksIndex + 1)}
+      /> */}
+    </div>
+    // <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
+    //   {[...links, ...rightLinks].map((link, index) => (
+    //     <div className="horizontal-links-wrapper" itemId={index}>
+    //       <Link to={link.path} className="horizontal-link">
+    //         {link.title}
+    //       </Link>
+    //     </div>
+    //   ))}
+    // </ScrollMenu>
   );
 }
 
-function LeftArrow() {
+function LeftArrow({ changeCurrentLink }) {
   const { isFirstItemVisible, scrollPrev } =
     React.useContext(VisibilityContext);
 
@@ -29,25 +39,31 @@ function LeftArrow() {
     <div
       disabled={isFirstItemVisible}
       className="arrows"
-      onClick={() => scrollPrev()}
+      onClick={() => {
+        scrollPrev();
+        changeCurrentLink();
+      }}
     >
       <AiOutlineArrowLeft size={30} className="arrow" />
     </div>
   );
 }
 
-function RightArrow() {
+function RightArrow({ changeCurrentLink }) {
   const { isLastItemVisible, scrollNext } = React.useContext(VisibilityContext);
 
   return (
     <div
       disabled={isLastItemVisible}
       className="arrows"
-      onClick={() => scrollNext()}
+      onClick={() => {
+        scrollNext();
+        changeCurrentLink();
+      }}
     >
       <AiOutlineArrowRight size={30} />
     </div>
   );
 }
 
-export default App;
+export default HorizontalScroll;
