@@ -14,17 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+## Screenshots of Landing Page
 
-## Screenshots
 
-Loading Page
+![](assets/images/githubreadme1.png)
 
-![image](https://user-images.githubusercontent.com/70533870/132955620-46ff99b1-8e2b-4eb0-8ea8-7715166fb12e.png)
 
-Home Page
+![](assets/images/githubreadme2.png)
 
-![image](https://user-images.githubusercontent.com/70533870/132955522-c32a7d2a-b101-4c76-8502-7e3415edbe7b.png)
 
-WishList Page
-
-![image](https://user-images.githubusercontent.com/70533870/132955662-a5e038bd-86d6-4398-a3f5-e3c54e1fecd2.png)
