@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/all";
 import { leftLinks } from "../LeftSideBar";
@@ -11,6 +11,8 @@ export default function HorizontalNavbar() {
   const [currentLinkIndex, setCurrentLinkIndex] = useState(0);
 
   const links = [...leftLinks, ...rightLinks];
+
+  const history = useHistory();
 
   const nextLink = () => {
     if (currentLinkIndex < links.length - 1) {
@@ -26,6 +28,7 @@ export default function HorizontalNavbar() {
     } else {
       setCurrentLinkIndex(links.length - 1);
     }
+    // history.push(links[currentLinkIndex - 1].path);
   };
 
   return (
