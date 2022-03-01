@@ -1,5 +1,5 @@
 .footer-wrapper {
-  background-color: #fff;
+  background-image: linear-gradient(#4e9ecf, #4ea45f);
   width: 100% !important;
   margin: 0 auto;
   display: flex;
@@ -18,9 +18,14 @@
   p {
     margin-top: 20px;
     text-align: center;
+    color: #fff;
   }
 
   #email-underline {
     text-decoration: underline !important;
+  }
+
+  a {
+    color: #fff;
   }
 }

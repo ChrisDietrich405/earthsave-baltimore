@@ -43,13 +43,13 @@ export default function Navbar2() {
           <Link to="/" className="navbar-link">
             Home
           </Link>
-          <Link to="donate" className="navbar-link">
+          <Link to="/donate" className="navbar-link">
             Donate
           </Link>
-          <Link to="membership" className="navbar-link">
+          <Link to="/membership" className="navbar-link">
             Membership
           </Link>
-          <Link to="contact" className="navbar-link">
+          <Link to="/contact" className="navbar-link">
             Contact
           </Link>
         </div>

@@ -18,6 +18,8 @@ import Article from "../../pages/Article";
 
 import Sidebar from "../Sidebar";
 
+import "./styles.scss";
+
 export const leftLinks = [
   {
     // icon: <TiNews />,
@@ -65,7 +67,7 @@ export const leftLinks = [
 
 export default function LeftSideBar() {
   return (
-    <div>
+    <div className="sidebar-left-container">
       <Sidebar links={leftLinks} />
     </div>
   );
