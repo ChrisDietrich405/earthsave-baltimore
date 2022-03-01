@@ -24,9 +24,9 @@ export default function Navbar2() {
 
           <div id="mobile-links">
             <Link to="/">Home</Link>
-            <Link to="donate">Donate</Link>
-            <Link to="membership">Membership</Link>
-            <Link to="contact">Contact</Link>
+            <Link to="/donate">Donate</Link>
+            <Link to="/membership">Membership</Link>
+            <Link to="/contact">Contact</Link>
           </div>
 
           <a href="javascript:void(0);" className="icon" onClick={showMenu}>

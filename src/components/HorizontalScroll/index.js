@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
+// import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 import { links } from "../LeftSideBar";
 import { links as rightLinks } from "../RightSideBar";
 import { Link } from "react-router-dom";
@@ -11,13 +11,13 @@ function HorizontalScroll() {
   const [currentLinksIndex, setCurrentLinksIndex] = useState(0);
   return (
     <div className="horizontal-scroll-container">
-      {/* <LeftArrow
+      <LeftArrow
         changeCurrentLink={() => setCurrentLinksIndex(currentLinksIndex - 1)}
       />
-      <div className="horizontal-link">{rightLinks[currentLinksIndex]}</div>
+      <div className="horizontal-link">{links[currentLinksIndex].title}</div>
       <RightArrow
         changeCurrentLink={() => setCurrentLinksIndex(currentLinksIndex + 1)}
-      /> */}
+      />
     </div>
     // <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
     //   {[...links, ...rightLinks].map((link, index) => (
@@ -50,11 +50,12 @@ function LeftArrow({ changeCurrentLink }) {
 }
 
 function RightArrow({ changeCurrentLink }) {
-  const { isLastItemVisible, scrollNext } = React.useContext(VisibilityContext);
+  // const { isLastItemVisible, scrollNext } = React.useContext(VisibilityContext);
 
+  console.log(changeCurrentLink);
   return (
     <div
-      disabled={isLastItemVisible}
+      // disabled={isLastItemVisible}
       className="arrows"
       onClick={() => {
         scrollNext();

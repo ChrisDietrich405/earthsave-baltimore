@@ -5,7 +5,7 @@ import Sidebar from "../Sidebar";
 
 import "./styles.scss";
 
-export const links = [
+export const rightLinks = [
   {
     //   icon: (<TiNews/>),
     title: "No Upcoming Events Available",
@@ -18,7 +18,7 @@ export default function RightSideBar() {
   return (
     <div className="app-sidebar app-sidebar-right">
       <h3>Upcoming Events</h3>
-      <Sidebar links={links} className="sidebar-right" />
+      <Sidebar links={rightLinks} className="sidebar-right" />
     </div>
   );
 }

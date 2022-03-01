@@ -37,8 +37,8 @@ import Routes from "./components/Routes";
 import Slideshow from "./components/Slideshow";
 import RightSideBar from "./components/RightSideBar";
 import LeftSideBar from "./components/LeftSideBar";
-import HorizontalScroll from "./components/HorizontalScroll";
-
+// import HorizontalScroll from "./components/HorizontalScroll";
+import HorizontalNavbar from "./components/HorizontalNavbar";
 import "./App.scss";
 
 import {
@@ -56,7 +56,8 @@ function App() {
     <div className="app-wrapper">
       <Router>
         <Navbar2 />
-        <HorizontalScroll />
+        <HorizontalNavbar />
+        {/* <HorizontalScroll /> */}
         <div className="home-container">
           <LeftSideBar />
           <div>

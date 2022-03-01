@@ -18,7 +18,7 @@ import Article from "../../pages/Article";
 
 import Sidebar from "../Sidebar";
 
-export const links = [
+export const leftLinks = [
   {
     // icon: <TiNews />,
     title: "News & Events Update",
@@ -66,7 +66,7 @@ export const links = [
 export default function LeftSideBar() {
   return (
     <div>
-      <Sidebar links={links} />
+      <Sidebar links={leftLinks} />
     </div>
   );
 }
