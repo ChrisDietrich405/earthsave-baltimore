@@ -30,7 +30,7 @@ import Restaurants from "./pages/Restaurants";
 import Article from "./pages/Article";
 import UpcomingEvents from "./pages/UpcomingEvents";
 
-import Navbar2 from "./components/Navbar2";
+import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
 import Routes from "./components/Routes";
@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="app-wrapper">
       <Router>
-        <Navbar2 />
+        <Navbar />
         <HorizontalNavbar />
         {/* <HorizontalScroll /> */}
         <div className="home-container">
