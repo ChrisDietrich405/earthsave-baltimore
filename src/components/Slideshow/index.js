@@ -58,7 +58,7 @@ export default function Slideshow() {
       } else {
         setIndex(index + 1);
       }
-    }, 2000);
+    }, 3000);
     console.log("gekki", interval);
     return () => clearInterval(interval);
   }, [index, pause]);
