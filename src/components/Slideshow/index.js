@@ -50,21 +50,29 @@ export default function Slideshow() {
   useEffect(() => {
     const interval = setInterval(() => {
       if (pause) {
-        // clearInterval(interval);
         return;
       }
-      if (index === imageArray.length - 1) {
-        setIndex(0);
-      } else {
-        setIndex(index + 1);
-      }
+      changePicture();
     }, 3000);
-    console.log("gekki", interval);
+
     return () => clearInterval(interval);
   }, [index, pause]);
 
+  const handlePause = () => {
+    setPause(!pause);
+    changePicture();
+  };
+
+  const changePicture = () => {
+    if (index === imageArray.length - 1) {
+      setIndex(0);
+    } else {
+      setIndex(index + 1);
+    }
+  };
+
   return (
-    <div className="slideshow-container" onClick={() => setPause(!pause)}>
+    <div className="slideshow-container" onClick={() => handlePause()}>
       <div className="slideshow">
         {pause ? (
           <div className="pause-btn">

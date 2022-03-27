@@ -57,7 +57,7 @@ function App() {
       <Router>
         <Navbar />
         <HorizontalNavbar />
-        {/* <HorizontalScroll /> */}
+
         <div className="home-container">
           <LeftSideBar />
           <div>
