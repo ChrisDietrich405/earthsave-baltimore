@@ -8,6 +8,10 @@ h3 {
   padding-bottom: 10px;
 }
 
+.app-sidebar-right {
+  flex-basis: 80%;
+}
+
 @media only screen and (max-width: 1024px) {
   .app-sidebar h3 {
     display: none;

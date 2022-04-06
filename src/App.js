@@ -60,10 +60,10 @@ function App() {
 
         <div className="home-container">
           <LeftSideBar />
-          <div>
-            <Routes />
-            <Footer />
-          </div>
+          {/* <div> */}
+          <Routes />
+          <Footer />
+          {/* </div> */}
           <RightSideBar />
         </div>
       </Router>
