@@ -5,7 +5,7 @@
 .sidebar-container {
   background-color: #edf8f4;
   width: 100%;
-  padding: 20px 8px;
+  padding: 20px;
 
   h5 {
     font-size: 0.3rem;
@@ -22,10 +22,9 @@
     }
   }
 
-  .sidebar-left {
+  .sidebar-in {
     display: flex;
     justify-content: flex-start;
-    // padding-left: 10px;
 
     ul {
       display: flex;
