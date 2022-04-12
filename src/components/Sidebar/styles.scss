@@ -1,7 +1,3 @@
-.active_item {
-  color: black;
-}
-
 .sidebar-container {
   background-color: #edf8f4;
   width: 100%;
@@ -12,13 +8,16 @@
   }
 
   .sidebar-subtitle {
-    width: 10rem;
     margin-top: 0.8rem;
     text-decoration: none;
+    transition: 0.4s all;
 
-    a {
-      width: 7rem;
-      padding-right: 5rem;
+    &.active_item {
+      color: black;
+    }
+
+    &:hover {
+      font-size: 1.1rem;
     }
   }
 
