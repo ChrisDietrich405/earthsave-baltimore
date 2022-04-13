@@ -16,7 +16,7 @@ export const rightLinks = [
 
 export default function RightSideBar() {
   return (
-    <div className="app-sidebar app-sidebar-right">
+    <div className="sidebar-right-container">
       <h3>Upcoming Events</h3>
       <Sidebar links={rightLinks} className="sidebar-right" />
     </div>

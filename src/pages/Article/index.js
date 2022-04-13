@@ -118,7 +118,7 @@ export default function Article() {
         and sacred Gift of Life.
       </p>
       <br />
-      <p>_____________________________________________________________</p>
+      <hr />
       <br />
       <p>
         {" "}
