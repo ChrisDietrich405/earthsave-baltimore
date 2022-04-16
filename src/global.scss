@@ -1,16 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #edf8f4;
   margin: 0px !important;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
   display: block;
-  font-family: "Roboto", sans-serif;
 }
 
 b {
   display: inline;
-  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -24,33 +29,6 @@ h2 {
   font-family: "Roboto", sans-serif !important;
 }
 
-h4 {
-  font-family: "Roboto", sans-serif;
-}
-
-a {
-  font-family: "Roboto", sans-serif;
-}
-
 span {
-  font-family: "Roboto", sans-serif;
   padding-right: 6px;
-}
-
-.page-container {
-  min-height: calc(100% - 30%);
-  background: #fff;
-  padding: 20px;
-}
-
-@media only screen and (max-width: 900px) {
-  .page-container {
-    width: 100%;
-    min-height: 0px;
-    padding-bottom: 50px;
-  }
-
-  .app-wrapper .home-container .home-content {
-    flex-basis: 100%;
-  }
 }

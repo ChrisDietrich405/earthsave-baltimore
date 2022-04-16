@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .app-wrapper {
   .home-container {
     width: 100%;
@@ -30,9 +24,15 @@
     position: relative;
     flex: 3;
   }
+
+  .page-container {
+    min-height: calc(100% - 30%);
+    background: #fff;
+    padding: 20px;
+  }
 }
 
-@media only screen and (max-width: 900px) {
+@media all and (max-width: 900px) {
   .app-container {
     display: flex;
     flex-direction: column;
@@ -41,5 +41,15 @@
   .sidebar-right-container,
   .sidebar-left-container {
     display: none;
+  }
+
+  .page-container {
+    width: 100%;
+    min-height: 0px;
+    padding-bottom: 50px;
+  }
+
+  .app-wrapper .home-container .home-content {
+    flex-basis: 100%;
   }
 }

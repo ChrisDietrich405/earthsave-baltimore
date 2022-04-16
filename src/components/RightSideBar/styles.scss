@@ -1,30 +1,25 @@
-h3 {
-  font-family: "Roboto", sans-serif;
-  padding-bottom: 10px;
-}
-
 .sidebar-right-container {
   margin: 0;
   text-align: center;
   flex-basis: 25%;
   background-color: #edf8f4;
-
   display: flex;
   flex-direction: column;
 
   h3 {
     margin-top: 1rem;
-    font-family: "Roboto", sans-serif;
+
+    padding-bottom: 10px;
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
   .sidebar-right-container h3 {
     display: none;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media all and (max-width: 900px) {
   .sidebar-right-container {
     display: none;
   }

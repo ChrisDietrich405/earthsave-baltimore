@@ -28,7 +28,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media all and (min-width: 900px) {
   .horizontal-navbar-container {
     display: none;
   }

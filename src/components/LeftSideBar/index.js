@@ -1,13 +1,3 @@
-// import {
-//   TiNews,
-//   ImQuotesLeft,
-//   GrResources,
-//   BsQuestionSquare,
-//   GiMedicalPackAlt,
-//   BiRestaurant,
-//   AiFillHeart,
-// } from "react-icons/all";
-
 import News from "../../pages/News";
 import Fascinating from "../../pages/Fascinating";
 import Recommended from "../../pages/Recommended";

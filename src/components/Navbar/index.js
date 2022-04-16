@@ -18,9 +18,19 @@ export default function Navbar() {
     <>
       <div className="mobile-container">
         <div className="topnav">
-          <a href="#home" className="active">
-            <img src={logo} alt="Navbar Logo" />
-          </a>
+          <div className="topnav-header">
+            <a href="#home" className="active">
+              <img
+                src={logo}
+                className="mobile-container-logo"
+                alt="Navbar Logo"
+              />
+            </a>
+
+            <a href="javascript:void(0);" className="icon" onClick={showMenu}>
+              <i className="fa fa-bars"></i>
+            </a>
+          </div>
 
           <div id="mobile-links">
             <Link to="/">Home</Link>
@@ -28,10 +38,6 @@ export default function Navbar() {
             <Link to="/membership">Membership</Link>
             <Link to="/contact">Contact</Link>
           </div>
-
-          <a href="javascript:void(0);" className="icon" onClick={showMenu}>
-            <i className="fa fa-bars"></i>
-          </a>
         </div>
       </div>
 

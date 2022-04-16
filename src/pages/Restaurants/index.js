@@ -18,7 +18,7 @@ export default function Restaurants() {
       <p>410-225-5874</p>
       <br />
       <p>
-        <b>Mr. Chan Szechuan Chinese restaurant</b>offers an incredible vegan
+        <b>Mr. Chan Szechuan Chinese restaurant</b> offers an incredible vegan
         section of the menu featuring Orange Seitan, Mock Citrus Ribs, plus many
         tofu, yuba, and tempeh delights.
       </p>

@@ -1,6 +1,4 @@
-import Footer from "../../components/Footer";
-
-import "./styles.css";
+import "./styles.scss";
 
 export default function Contact() {
   return (

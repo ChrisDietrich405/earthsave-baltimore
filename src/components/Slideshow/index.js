@@ -74,15 +74,17 @@ export default function Slideshow() {
   return (
     <div className="slideshow-container" onClick={() => handlePause()}>
       <div className="slideshow">
-        {pause ? (
-          <div className="pause-btn">
-            <img className="slideshow-btn" src={PlayNormal} />
-          </div>
-        ) : (
-          <div className="play-btn">
-            <img className="slideshow-btn" src={PauseNormal} />
-          </div>
-        )}
+        <div className="controls">
+          {pause ? (
+            <div className="pause-btn">
+              <img className="slideshow-btn" src={PlayNormal} />
+            </div>
+          ) : (
+            <div className="play-btn">
+              <img className="slideshow-btn" src={PauseNormal} />
+            </div>
+          )}
+        </div>
         {imageArray.map((image, i) => (
           <img
             className={`${index === i ? "active" : "inactive"} slideshow-image`}

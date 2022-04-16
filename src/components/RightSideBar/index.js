@@ -1,5 +1,3 @@
-// import { TiNews } from "react-icons/all"
-
 import UpcomingEvents from "../../pages/UpcomingEvents";
 import Sidebar from "../Sidebar";
 
@@ -7,7 +5,6 @@ import "./styles.scss";
 
 export const rightLinks = [
   {
-    //   icon: (<TiNews/>),
     title: "No Upcoming Events Available",
     path: "/upcoming-events/upcoming-events",
     component: UpcomingEvents,

@@ -1,15 +1,42 @@
-img {
-  width: 100px;
-}
+.mobile-container {
+  display: none;
+  background-image: linear-gradient(#4ea45f, #4e9ecf);
 
-.navbar-link {
-  font-size: 50px;
-  font-family: "Roboto", sans-serif;
-  padding: 10px 31px;
-  transition: 0.4s all;
+  .topnav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 
-  &:hover {
-    background: #fff;
+    #mobile-links {
+      display: none;
+    }
+
+    a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    a.icon {
+      font-size: 30px;
+      display: block;
+    }
+  }
+
+  .topnav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile-container-logo {
+    width: 40px;
   }
 }
 
@@ -20,55 +47,30 @@ img {
   justify-content: space-around;
   align-items: center;
 
+  .navbar-logo {
+    width: 100px;
+  }
+
   .desktop-links a {
     color: black;
     font-size: 1.5rem;
     margin-right: 30px;
     text-decoration: none;
   }
+
+  .navbar-link {
+    font-size: 50px;
+
+    padding: 10px 31px;
+    transition: 0.4s all;
+
+    &:hover {
+      background: #fff;
+    }
+  }
 }
 
-.topnav {
-  overflow: hidden;
-  background-image: linear-gradient(#4ea45f, #4e9ecf);
-  position: relative;
-}
-
-.topnav #mobile-links {
-  display: none;
-}
-
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-  font-family: "Roboto", sans-serif;
-}
-
-.topnav a.icon {
-  font-size: 30px;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 25px;
-}
-
-.topnav a:hover {
-  color: black;
-}
-
-.active {
-  background-image: linear-gradient(#4ea45f, #4e9ecf);
-  color: white;
-}
-
-.mobile-container {
-  display: none;
-}
-
-@media only screen and (max-width: 900px) {
+@media all and (max-width: 900px) {
   .horizontal-link {
     width: 95%;
   }
@@ -86,7 +88,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media all and (max-width: 450px) {
   .mobile-container {
     display: block;
   }
