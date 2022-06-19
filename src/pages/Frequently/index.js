@@ -1,5 +1,3 @@
-import Footer from "../../components/Footer";
-
 export default function Frequently() {
   return (
     <div className="page-container">

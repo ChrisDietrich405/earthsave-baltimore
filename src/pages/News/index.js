@@ -1,4 +1,5 @@
 import "./styles.scss";
+
 export default function News({ className }) {
   return (
     <div className={"page-container" + " " + className}>

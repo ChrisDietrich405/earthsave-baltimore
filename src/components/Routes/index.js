@@ -8,13 +8,10 @@ import Local from "../../pages/Local";
 import Restaurants from "../../pages/Restaurants";
 import Article from "../../pages/Article";
 import UpcomingEvents from "../../pages/UpcomingEvents";
-
 import Home from "../../pages/Home";
 import Donate from "../../pages/Donate";
 import Membership from "../../pages/Membership";
 import Contact from "../../pages/Contact";
-
-import Validate from "../../pages/Validate";
 
 export default function Routes() {
   return (
@@ -31,8 +28,6 @@ export default function Routes() {
       <Route path="/restaurants" component={Restaurants} />
       <Route path="/article" component={Article} />
       <Route path="/upcoming-events" component={UpcomingEvents} />
-
-      <Route path="validate" component={Validate} />
     </Switch>
   );
 }

@@ -1,5 +1,3 @@
-import Footer from "../../components/Footer";
-
 import "./styles.scss";
 
 export default function Local() {

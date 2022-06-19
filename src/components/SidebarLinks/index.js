@@ -1,13 +1,3 @@
-import Sidebar from "../Sidebar";
-
-import News from "../../pages/News";
-import Fascinating from "../../pages/Fascinating";
-import Recommended from "../../pages/Recommended";
-import Frequently from "../../pages/Frequently";
-import Local from "../../pages/Local";
-import Restaurants from "../../pages/Restaurants";
-import Article from "../../pages/Article";
-
 import {
   TiNews,
   ImQuotesLeft,
@@ -17,6 +7,15 @@ import {
   BiRestaurant,
   AiFillHeart,
 } from "react-icons/all";
+
+import Sidebar from "../Sidebar";
+import News from "../../pages/News";
+import Fascinating from "../../pages/Fascinating";
+import Recommended from "../../pages/Recommended";
+import Frequently from "../../pages/Frequently";
+import Local from "../../pages/Local";
+import Restaurants from "../../pages/Restaurants";
+import Article from "../../pages/Article";
 
 export default function SidebarLinks() {
   return (

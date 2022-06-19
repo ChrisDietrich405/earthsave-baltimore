@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 
 import { FaPlay, FaPause } from "react-icons/fa";
 
+import "./styles.scss";
+
 import slideshow1 from "../../assets/images/1.jpg";
 import slideshow2 from "../../assets/images/2.jpg";
 import slideshow3 from "../../assets/images/3.jpg";
@@ -20,8 +22,6 @@ import slideshow15 from "../../assets/images/15.jpg";
 
 import PlayNormal from "../../assets/images/PlayNormal.svg";
 import PauseNormal from "../../assets/images/PauseNormal.svg";
-
-import "./styles.scss";
 
 export default function Slideshow() {
   const imageArray = [

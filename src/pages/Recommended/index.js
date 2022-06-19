@@ -1,12 +1,9 @@
-import Footer from "../../components/Footer";
-
 import "./styles.scss";
 
 export default function Recommended() {
   return (
     <div className="page-container">
       <h1>Recommendended Resources</h1>
-
       <h3>BOOKS</h3>
       <p>
         These books are available in nearly all public libraries and bookstores.

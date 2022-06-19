@@ -1,25 +1,4 @@
-// the pause will be on Hover
-//I should add arrows left and right
-
-//RESPONSIVITY
-//in tablet version don't have hamburger menu for navbar (keep it the same as the desktop)
-//(navbar) in mobile version have hamburger menu with drop down for donate, membership etc
-//in the mobile version the dropdown will cover the entire screen https://www.thebarbershop.com.br/
-//when user opens hamburger menu they only have access to the navbar links
-
-//when they close the hamburger menu they will see the horizontal bar with sidebar links
-// in mobile version sidebar links turn into horizontal list bar
-//the slideshow will be underneath the horizontal list bar https://dribbble.com/ (remember to shrink screen
-// and scroll down to see the example)
-
-//ASK DON
-// external links opening in separate tabs
-
 import { BrowserRouter as Router } from "react-router-dom";
-// import Home from "./pages/Home"
-// import Donate from "./pages/Donate"
-// import Membership from "./pages/Membership"
-// import Contact from "./pages/Contact"
 
 import News from "./pages/News";
 import Fascinating from "./pages/Fascinating";
@@ -37,7 +16,6 @@ import Routes from "./components/Routes";
 import Slideshow from "./components/Slideshow";
 import RightSideBar from "./components/RightSideBar";
 import LeftSideBar from "./components/LeftSideBar";
-// import HorizontalScroll from "./components/HorizontalScroll";
 import HorizontalNavbar from "./components/HorizontalNavbar";
 import "./App.scss";
 
@@ -57,7 +35,6 @@ function App() {
       <Router>
         <Navbar />
         <HorizontalNavbar />
-
         <div className="home-container">
           <LeftSideBar />
           <div className="home-content">
