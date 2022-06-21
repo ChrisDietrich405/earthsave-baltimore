@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import logo from "../../assets/images/earthsave-logo.jpg";
+import navbar from "../../assets/images/navbar.jpg";
 
 import "./styles.scss";
 
@@ -40,24 +41,27 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-
-      <div className="desktop-container">
-        <a href="#home" className="active">
-          <img src={logo} className="navbar-logo" alt="Navbar Logo" />
-        </a>
-        <div className="desktop-links">
-          <Link to="/" className="navbar-link">
-            Home
-          </Link>
-          <Link to="/donate" className="navbar-link">
-            Donate
-          </Link>
-          <Link to="/membership" className="navbar-link">
-            Membership
-          </Link>
-          <Link to="/contact" className="navbar-link">
-            Contact
-          </Link>
+      <div
+        className="image-container"
+        style={{
+          backgroundImage: `url(${navbar})`,
+        }}
+      >
+        <div className="desktop-container">
+          <div className="desktop-links">
+            <Link to="/" className="navbar-link">
+              Home
+            </Link>
+            <Link to="/donate" className="navbar-link">
+              Donate
+            </Link>
+            <Link to="/membership" className="navbar-link">
+              Membership
+            </Link>
+            <Link to="/contact" className="navbar-link">
+              Contact
+            </Link>
+          </div>
         </div>
       </div>
     </>
