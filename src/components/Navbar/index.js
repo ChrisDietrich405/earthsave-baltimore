@@ -49,18 +49,40 @@ export default function Navbar() {
       >
         <div className="desktop-container">
           <div className="desktop-links">
-            <Link to="/" className="navbar-link">
-              Home
-            </Link>
-            <Link to="/donate" className="navbar-link">
-              Donate
-            </Link>
-            <Link to="/membership" className="navbar-link">
-              Membership
-            </Link>
-            <Link to="/contact" className="navbar-link">
-              Contact
-            </Link>
+            <div className="home-links">
+              <Link to="/" className="navbar-link">
+                Home
+              </Link>
+              <Link to="/donate" className="navbar-link">
+                About
+              </Link>
+            </div>
+            <div className="FAQ-links">
+              <Link to="/donate" className="navbar-link">
+                FAQ
+              </Link>
+              <Link to="/membership" className="navbar-link">
+                Membership
+              </Link>
+              <Link to="/donate" className="navbar-link">
+                Donate
+              </Link>
+              <Link to="/donate" className="navbar-link">
+                E-mail Newsletter
+              </Link>
+              <Link
+                // to={
+                //   (window.location.href =
+                //     "https://www.facebook.com/ConsciousFoodChoices")
+                // }
+                className="navbar-link"
+              >
+                On Facebook
+              </Link>
+              <Link to="/contact" className="navbar-link">
+                Contact
+              </Link>
+            </div>
           </div>
         </div>
       </div>

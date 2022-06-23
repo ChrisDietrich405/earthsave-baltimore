@@ -52,6 +52,8 @@
 }
 
 .desktop-container {
+  display: flex;
+  justify-content: space-around;
   height: 100px;
   display: flex;
   justify-content: space-around;
@@ -64,9 +66,15 @@
     width: 100px;
   }
 
+  .desktop-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .desktop-links a {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     margin-right: 30px;
     text-decoration: none;
   }
