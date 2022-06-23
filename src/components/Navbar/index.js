@@ -6,14 +6,14 @@ import navbar from "../../assets/images/navbar.jpg";
 import "./styles.scss";
 
 export default function Navbar() {
-  function showMenu() {
+  const showMenu = () => {
     const x = document.getElementById("mobile-links");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
       x.style.display = "block";
     }
-  }
+  };
 
   return (
     <>
@@ -28,7 +28,7 @@ export default function Navbar() {
               />
             </a>
 
-            <a href="javascript:void(0);" className="icon" onClick={showMenu}>
+            <a className="icon" onClick={showMenu}>
               <i className="fa fa-bars"></i>
             </a>
           </div>
@@ -48,41 +48,38 @@ export default function Navbar() {
         }}
       >
         <div className="desktop-container">
-          <div className="desktop-links">
-            <div className="home-links">
-              <Link to="/" className="navbar-link">
-                Home
-              </Link>
-              <Link to="/donate" className="navbar-link">
-                About
-              </Link>
-            </div>
-            <div className="FAQ-links">
-              <Link to="/donate" className="navbar-link">
-                FAQ
-              </Link>
-              <Link to="/membership" className="navbar-link">
-                Membership
-              </Link>
-              <Link to="/donate" className="navbar-link">
-                Donate
-              </Link>
-              <Link to="/donate" className="navbar-link">
-                E-mail Newsletter
-              </Link>
-              <Link
-                // to={
-                //   (window.location.href =
-                //     "https://www.facebook.com/ConsciousFoodChoices")
-                // }
-                className="navbar-link"
-              >
-                On Facebook
-              </Link>
-              <Link to="/contact" className="navbar-link">
-                Contact
-              </Link>
-            </div>
+          <div className="home-links">
+            <Link to="/" className="navbar-link">
+              Home
+            </Link>
+            <Link to="/donate" className="navbar-link">
+              About
+            </Link>
+          </div>
+          <div className="space"></div>
+          <div className="FAQ-links">
+            <Link to="/donate" className="navbar-link">
+              FAQ
+            </Link>
+            <Link to="/membership" className="navbar-link">
+              Membership
+            </Link>
+            <Link to="/donate" className="navbar-link">
+              Donate
+            </Link>
+            <Link to="/donate" className="navbar-link">
+              E-mail Newsletter
+            </Link>
+            <a
+              href="https://www.facebook.com/ConsciousFoodChoices"
+              className="navbar-link"
+              target="_blank"
+            >
+              On Facebook
+            </a>
+            <Link to="/contact" className="navbar-link">
+              Contact
+            </Link>
           </div>
         </div>
       </div>

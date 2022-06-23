@@ -42,10 +42,8 @@ export default function Slideshow() {
     slideshow15,
   ];
 
-  const [pause, setPause] = useState(false);
+  const [pause, setPause] = useState(true);
   const [index, setIndex] = useState(0);
-
-  console.log(index);
 
   useEffect(() => {
     const interval = setInterval(() => {
