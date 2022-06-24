@@ -12,6 +12,7 @@ import Home from "../../pages/Home";
 import Donate from "../../pages/Donate";
 import Membership from "../../pages/Membership";
 import Contact from "../../pages/Contact";
+import EmailNewsletter from "../../pages/EmailNewsletter";
 
 export default function Routes() {
   return (
@@ -28,6 +29,7 @@ export default function Routes() {
       <Route path="/restaurants" component={Restaurants} />
       <Route path="/article" component={Article} />
       <Route path="/upcoming-events" component={UpcomingEvents} />
+      <Route path="/email-newsletter" component={EmailNewsletter} />
     </Switch>
   );
 }

@@ -67,7 +67,7 @@ export default function Navbar() {
             <Link to="/donate" className="navbar-link">
               Donate
             </Link>
-            <Link to="/donate" className="navbar-link">
+            <Link to="/email-newsletter" className="navbar-link">
               E-mail Newsletter
             </Link>
             <a
