@@ -52,7 +52,7 @@ export default function Navbar() {
             <Link to="/" className="navbar-link">
               Home
             </Link>
-            <Link to="/donate" className="navbar-link">
+            <Link to="/frequently" className="navbar-link">
               FAQ
             </Link>
           </div>
