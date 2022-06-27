@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 import "./styles.scss";
 
@@ -11,87 +11,12 @@ export default function EmailNewsletter() {
 
   const inputRef = useRef();
 
-  const submit = (e) => {
-    e.preventDefault();
-
-    var templateParams = {
-      firstName: firstName,
-      lastName: lastName,
-      email: email,
-      message: message,
-    };
-
-    emailjs
-      .send(
-        "service_y7fq1o3",
-        "template_89dj9rt",
-        templateParams,
-        "Y8tiOkzf-c7ZDYAZy"
-      )
-      .then(
-        function (response) {
-          setFirstName("");
-          setLastName("");
-          setEmail("");
-          setMessage("");
-          successToast("message sent");
-        },
-        function (error) {
-          errorToast("message wasn't sent");
-        }
-      );
-  };
-
-  useEffect(() => {
-    inputRef.current.focus();
-  }, []);
-
   return (
     <>
-      <div className="form-container">
-        <form className="contact" onSubmit={submit}>
-          <h2>Join our mailing list!</h2>
-          <label htmlFor="name">
-            First Name
-            <input
-              ref={inputRef}
-              type="text"
-              id="name"
-              value={firstName}
-              onChange={(e) => setFirstName(e.target.value)}
-            />
-          </label>
-          <label htmlFor="name">
-            Last Name
-            <input
-              type="text"
-              id="name"
-              value={lastName}
-              onChange={(e) => setLastName(e.target.value)}
-            />
-          </label>
-          <label htmlFor="email">
-            Email
-            <input
-              type="text"
-              id="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </label>
-          <label>
-            Message
-            <textarea
-              type="text"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            />
-          </label>
-          <button type="submit" className="sign-in-button">
-            Submit
-          </button>
-        </form>
-      </div>
+      <iframe
+        src="https://us10.list-manage.com/contact-form?u=6f5e1ed7f167b48d75116ef71&form_id=151897928f1b4371c94a2d4fd17af562"
+        className="form-container"
+      ></iframe>
     </>
   );
 }
