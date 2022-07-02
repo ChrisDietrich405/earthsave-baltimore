@@ -1,10 +1,11 @@
 .image-container {
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 100%;
-  display: flex;
+  position: relative;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
 }
 
 .mobile-container {
@@ -52,6 +53,7 @@
   padding-top: 220px;
   width: 100%;
   display: flex;
+  z-index: 10;
 
   .navbar-logo {
     width: 100px;

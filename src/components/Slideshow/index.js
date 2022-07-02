@@ -27,19 +27,19 @@ export default function Slideshow() {
   const imageArray = [
     slideshow1,
     slideshow2,
-    slideshow3,
+    // slideshow3,
     slideshow4,
     slideshow5,
     slideshow6,
     slideshow7,
     slideshow8,
-    slideshow9,
+    // slideshow9,
     slideshow10,
     slideshow11,
     slideshow12,
-    slideshow13,
+    // slideshow13,
     slideshow14,
-    slideshow15,
+    // slideshow15,
   ];
 
   const [pause, setPause] = useState(true);

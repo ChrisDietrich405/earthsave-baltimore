@@ -35,29 +35,37 @@ export default function Navbar() {
 
           <div id="mobile-links">
             <Link to="/">Home</Link>
-            <Link to="/donate">Donate</Link>
+            <Link to="/frequently">About</Link>
+            <Link to="/frequently">FAQ</Link>
             <Link to="/membership">Membership</Link>
+            <Link to="/donate">Donate</Link>
+            <Link to="/email-newsletter">E-mail Newsletter</Link>
+            <a
+              href="https://www.facebook.com/ConsciousFoodChoices"
+              target="_blank"
+            >
+              On Facebook
+            </a>
             <Link to="/contact">Contact</Link>
           </div>
         </div>
       </div>
-      <div
-        className="image-container"
-        style={{
-          backgroundImage: `url(${navbar})`,
-        }}
-      >
+      <div className="image-container">
+        <img src={navbar} />
         <div className="desktop-container">
           <div className="home-links">
             <Link to="/" className="navbar-link">
               Home
             </Link>
             <Link to="/frequently" className="navbar-link">
-              FAQ
+              About
             </Link>
           </div>
           <div className="space"></div>
           <div className="FAQ-links">
+            <Link to="/frequently" className="navbar-link">
+              FAQ
+            </Link>
             <Link to="/membership" className="navbar-link">
               Membership
             </Link>
