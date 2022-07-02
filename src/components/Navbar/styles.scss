@@ -1,6 +1,13 @@
+.header-container {
+  height: 100%;
+  padding: -160px;
+}
+
 .image-container {
   position: relative;
+  height: 60%;
   img {
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -50,6 +57,7 @@
 }
 
 .desktop-container {
+  position: relative;
   padding-top: 220px;
   width: 100%;
   display: flex;

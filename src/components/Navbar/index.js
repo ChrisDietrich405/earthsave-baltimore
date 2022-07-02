@@ -16,7 +16,7 @@ export default function Navbar() {
   };
 
   return (
-    <>
+    <div className="header-container">
       <div className="mobile-container">
         <div className="topnav">
           <div className="topnav-header">
@@ -88,6 +88,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
