@@ -50,8 +50,11 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="image-container">
-        <img src={navbar} />
+      <div className="image-container"
+        style={{
+          backgroundImage: `url("${navbar}")`
+        }}
+      >
         <div className="desktop-container">
           <div className="home-links">
             <Link to="/" className="navbar-link">
