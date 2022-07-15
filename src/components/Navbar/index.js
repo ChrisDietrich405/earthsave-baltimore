@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-import logo from "../../assets/images/earthsave-logo.jpg";
-import navbar from "../../assets/images/navbar.jpg";
+import logo from "../../assets/images/navbar.jpg";
+import navbar from "../../assets/images/navbar-banner.jpg";
 
 import "./styles.scss";
 
@@ -43,6 +43,7 @@ export default function Navbar() {
             <a
               href="https://www.facebook.com/ConsciousFoodChoices"
               target="_blank"
+              className="facebook"
             >
               On Facebook
             </a>
@@ -50,9 +51,10 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="image-container"
+      <div
+        className="image-container"
         style={{
-          backgroundImage: `url("${navbar}")`
+          backgroundImage: `url("${navbar}")`,
         }}
       >
         <div className="desktop-container">
@@ -80,7 +82,7 @@ export default function Navbar() {
             </Link>
             <a
               href="https://www.facebook.com/ConsciousFoodChoices"
-              className="navbar-link"
+              className="navbar-link facebook"
               target="_blank"
             >
               On Facebook
