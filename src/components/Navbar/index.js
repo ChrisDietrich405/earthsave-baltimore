@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import logo from "../../assets/images/navbar.jpg";
-import navbar from "../../assets/images/navbar-banner.jpg";
+import navbar from "../../assets/images/new-banner.jpg";
 
 import "./styles.scss";
 
@@ -65,6 +65,9 @@ export default function Navbar() {
             <Link to="/frequently" className="navbar-link">
               About
             </Link>
+            <Link to="/contact" className="navbar-link">
+              Contact
+            </Link>
           </div>
           <div className="space"></div>
           <div className="FAQ-links">
@@ -87,9 +90,6 @@ export default function Navbar() {
             >
               On Facebook
             </a>
-            <Link to="/contact" className="navbar-link">
-              Contact
-            </Link>
           </div>
         </div>
       </div>
