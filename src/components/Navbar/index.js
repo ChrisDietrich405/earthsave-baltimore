@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import logo from "../../assets/images/navbar.jpg";
-import navbar from "../../assets/images/new-banner.jpg";
+import navbar from "../../assets/images/new-banner.png";
 
 import "./styles.scss";
 
@@ -62,15 +62,15 @@ export default function Navbar() {
             <Link to="/" className="navbar-link">
               Home
             </Link>
+          </div>
+          <div className="space"></div>
+          <div className="FAQ-links">
             <Link to="/frequently" className="navbar-link">
               About
             </Link>
             <Link to="/contact" className="navbar-link">
               Contact
             </Link>
-          </div>
-          <div className="space"></div>
-          <div className="FAQ-links">
             <Link to="/frequently" className="navbar-link">
               FAQ
             </Link>
@@ -81,7 +81,7 @@ export default function Navbar() {
               Donate
             </Link>
             <Link to="/email-newsletter" className="navbar-link">
-              E-mail Newsletter
+              Subscribe
             </Link>
             <a
               href="https://www.facebook.com/ConsciousFoodChoices"
