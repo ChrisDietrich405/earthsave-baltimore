@@ -39,17 +39,6 @@ export default function Slideshow() {
   const [pause, setPause] = useState(true);
   const [index, setIndex] = useState(0);
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     if (pause) {
-  //       return;
-  //     }
-  //     changePicture();
-  //   }, 3000);
-
-  //   return () => clearInterval(interval);
-  // }, [index, pause]);
-
   const handlePause = () => {
     setPause(!pause);
     changePicture();
