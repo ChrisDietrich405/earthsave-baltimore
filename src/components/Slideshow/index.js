@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
-import { FaPlay, FaPause } from "react-icons/fa";
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 import "./styles.scss";
 
@@ -16,9 +16,6 @@ import slideshow9 from "../../assets/images/9.png";
 import slideshow10 from "../../assets/images/10.jpg";
 import slideshow11 from "../../assets/images/11.jpg";
 import slideshow12 from "../../assets/images/12.jpg";
-
-import PlayNormal from "../../assets/images/PlayNormal.svg";
-import PauseNormal from "../../assets/images/PauseNormal.svg";
 
 export default function Slideshow() {
   const imageArray = [
@@ -36,15 +33,9 @@ export default function Slideshow() {
     slideshow12,
   ];
 
-  const [pause, setPause] = useState(true);
   const [index, setIndex] = useState(0);
 
-  const handlePause = () => {
-    setPause(!pause);
-    changePicture();
-  };
-
-  const changePicture = () => {
+  const nextPicture = () => {
     if (index === imageArray.length - 1) {
       setIndex(0);
     } else {
@@ -52,27 +43,39 @@ export default function Slideshow() {
     }
   };
 
+  
+
+  const prevPicture = () => {
+     if(index === 0) {
+      setIndex(imageArray.length - 1)
+     } else {
+      setIndex(index - 1)
+     }
+
+
+  
+  };
+
   return (
-    <div className="slideshow-container" onClick={() => handlePause()}>
+    <div className="slideshow-container">
+
       <div className="slideshow">
         <div className="controls">
-          {pause ? (
-            <div className="pause-btn">
-              <img className="slideshow-btn" src={PlayNormal} />
-            </div>
-          ) : (
-            <div className="play-btn">
-              <img className="slideshow-btn" src={PauseNormal} />
-            </div>
-          )}
+          <div className="arrow-btn">
+            <button onClick={prevPicture}><FaArrowAltCircleLeft/></button>
+          </div>
+          <div className="arrow-btn">
+          <button onClick={nextPicture}><FaArrowAltCircleRight/></button>
+          </div>
         </div>
         {imageArray.map((image, i) => (
           <img
             className={`${index === i ? "active" : "inactive"} slideshow-image`}
             src={image}
-          ></img>
+          />
         ))}
       </div>
     </div>
+  
   );
 }

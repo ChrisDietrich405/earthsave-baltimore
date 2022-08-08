@@ -25,7 +25,7 @@
       width: 100%;
       height: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
 
       &:hover {
@@ -35,13 +35,22 @@
         }
       }
 
-      .play-btn,
-      .pause-btn {
-        display: none;
-        color: black;
-        animation: fade 1s;
+      .arrow-btn {
+        button {
+          background: transparent;   
+          border: none; 
+          color: #fff;
+          
+          svg {
+            filter:drop-shadow(1px 1px 2px #000);
+            width: 60px; 
+            height: 60px; 
+          }
+        }
       }
     }
+
+    
 
     .slideshow-image {
       width: 100%;
