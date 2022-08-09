@@ -28,9 +28,9 @@ export default function Navbar() {
               />
             </a>
 
-            <a className="icon" onClick={showMenu}>
+            <button className="icon" onClick={showMenu}>
               <i className="fa fa-bars"></i>
-            </a>
+            </button>
           </div>
 
           <div id="mobile-links">
@@ -43,6 +43,7 @@ export default function Navbar() {
             <a
               href="https://www.facebook.com/ConsciousFoodChoices"
               target="_blank"
+              rel="noreferrer"
               className="facebook"
             >
               On Facebook
@@ -86,6 +87,7 @@ export default function Navbar() {
             <a
               href="https://www.facebook.com/ConsciousFoodChoices"
               className="navbar-link facebook"
+              rel="noreferrer"
               target="_blank"
             >
               On Facebook

@@ -1,4 +1,4 @@
-import { Link, Switch, Route, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import classNames from "classnames";
 import parser from "html-react-parser";
 
@@ -20,7 +20,7 @@ export default function Sidebar(props) {
               <Link
                 to={link.path}
                 className={classNames("sidebar-subtitle", {
-                  active_item: location.pathname == link.path,
+                  active_item: location.pathname === link.path,
                 })}
               >
                 {parser(link.title)}

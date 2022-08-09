@@ -1,4 +1,4 @@
-import { useState} from "react";
+import { useState } from "react";
 
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
@@ -43,39 +43,38 @@ export default function Slideshow() {
     }
   };
 
-  
-
   const prevPicture = () => {
-     if(index === 0) {
-      setIndex(imageArray.length - 1)
-     } else {
-      setIndex(index - 1)
-     }
-
-
-  
+    if (index === 0) {
+      setIndex(imageArray.length - 1);
+    } else {
+      setIndex(index - 1);
+    }
   };
 
   return (
     <div className="slideshow-container">
-
       <div className="slideshow">
         <div className="controls">
           <div className="arrow-btn">
-            <button onClick={prevPicture}><FaArrowAltCircleLeft/></button>
+            <button onClick={prevPicture}>
+              <FaArrowAltCircleLeft />
+            </button>
           </div>
           <div className="arrow-btn">
-          <button onClick={nextPicture}><FaArrowAltCircleRight/></button>
+            <button onClick={nextPicture}>
+              <FaArrowAltCircleRight />
+            </button>
           </div>
         </div>
         {imageArray.map((image, i) => (
           <img
+            key={i}
+            alt="slideshow"
             className={`${index === i ? "active" : "inactive"} slideshow-image`}
             src={image}
           />
         ))}
       </div>
     </div>
-  
   );
 }

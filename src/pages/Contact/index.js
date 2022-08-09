@@ -17,7 +17,7 @@ export default function Contact() {
       <p>20555 Devonshire St., Ste. 105,</p>
       <p>Chatsworth, CA 91311,</p>
       <br />
-      <a href="http://www.earthsave.org/" target="_blank">
+      <a href="http://www.earthsave.org/" target="_blank" rel="noreferrer">
         http://www.earthsave.org/
       </a>
       <br />

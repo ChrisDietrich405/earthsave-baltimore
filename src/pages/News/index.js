@@ -2,7 +2,7 @@ import "./styles.scss";
 
 export default function News({ className }) {
   return (
-    <div className={"page-container" + " " + className}>
+    <div className={`page-container ${className}`}>
       <div className="news-in">
         <h1>June 2022 News & Events: Earth Friendly Food Choices</h1>
         <p> Fri, 02/21/2020 - 4:21pm — earthsave</p>
@@ -104,6 +104,7 @@ export default function News({ className }) {
           <a
             href="https://drmiltonmillsplantbasednation.com/the-comparative-anatomy-of-eating/"
             target="_blank"
+            rel="noreferrer"
           >
             Dr. Milton Mills Comparative Anatomy of Eating
           </a>{" "}

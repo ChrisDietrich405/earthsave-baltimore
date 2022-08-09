@@ -119,7 +119,7 @@ export default function Local() {
         environment where conventional medical training and complementary
         therapies combine to create wellness. 1300 York Road, Building D - Suite
         #290, Lutherville, MD 21093. Call 410-296-6100.{" "}
-        <a href="http://www.cometawellnesscenter.com/" target="_blank">
+        <a href="http://www.cometawellnesscenter.com/" target="_blank" rel="noreferrer">
           http://www.cometawellnesscenter.com//
         </a>
       </p>
@@ -151,7 +151,7 @@ export default function Local() {
         nutrients, bodywork, detoxification, diet and lifestyle options, before
         moving to more aggressive therapies. 701 Morris Tongue Drive
         Millersville, MD 21108 410-923-8888{" "}
-        <a href="http://www.bodhiclinic.com/" target="_blank">
+        <a href="http://www.bodhiclinic.com/" target="_blank" rel="noreferrer">
           http://www.bodhiclinic.com/
         </a>{" "}
       </p>
