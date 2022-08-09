@@ -14,8 +14,8 @@ export default function Sidebar(props) {
           <ul></ul>
         </div>
         <ul>
-          {props.links.map((link) => (
-            <li>
+          {props.links.map((link, index) => (
+            <li key={index}>
               {link.icon}
               <Link
                 to={link.path}

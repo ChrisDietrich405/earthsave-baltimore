@@ -17,7 +17,7 @@
 
   .slideshow {
     width: 95%;
-    height: 30vw;
+    // height: 30vw;
     position: relative;
 
     .controls {
@@ -40,6 +40,7 @@
           background: transparent;   
           border: none; 
           color: #fff;
+          opacity: .6;
           
           svg {
             filter:drop-shadow(1px 1px 2px #000);
@@ -61,4 +62,8 @@
       display: none;
     }
   }
+}
+
+@media all and (max-width: 900px) {
+
 }
