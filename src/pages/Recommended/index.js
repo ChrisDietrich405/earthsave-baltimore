@@ -100,7 +100,7 @@ export default function Recommended() {
         with VegPledge, and also features Earthsave TV online educational videos
         and many helpful publications you may read for free online.
       </p>
-      <a href="https://www.earthsave.org" target="_blank">
+      <a href="https://www.earthsave.org" target="_blank" rel="noreferrer">
         http://earthsave.org/
       </a>
       <br />
@@ -109,7 +109,7 @@ export default function Recommended() {
         <b>North American Vegetarian Society</b>hosts Vegetarian Summerfest, in
         Johnstown, PA, one of the best educational opportunites available.
       </p>
-      <a href="http://www.navs-online.org/" target="_blank">
+      <a href="http://www.navs-online.org/" target="_blank" rel="noreferrer">
         http://www.navs-online.org/
       </a>
       <br />
@@ -118,7 +118,7 @@ export default function Recommended() {
         <b>Vegetarian Resource Group</b> has a real helpful website that
         includes a nationwide guide to vegetarian and veg-friendly restaurants.
       </p>
-      <a href="http://www.vrg.org" target="_blank">
+      <a href="http://www.vrg.org" target="_blank" rel="noreferrer">
         {" "}
         http://www.vrg.org
       </a>
@@ -128,7 +128,7 @@ export default function Recommended() {
         <b>VegSource</b> website offers free online viewings of many helpful
         educational videos.
       </p>
-      <a href="https://vegsource.com/" target="_blank">
+      <a href="https://vegsource.com/" target="_blank" rel="noreferrer">
         {" "}
         https://vegsource.com/
       </a>
@@ -158,7 +158,7 @@ export default function Recommended() {
         including "Why Vegan", and "Even if You Like Meat". Their Adopt-a-Campus
         program has been highly effective outreach effort.
       </p>
-      <a href="https://veganoutreach.org/" target="_blank">
+      <a href="https://veganoutreach.org/" target="_blank" rel="noreferrer">
         https://veganoutreach.org/
       </a>
       <br />
@@ -168,7 +168,7 @@ export default function Recommended() {
         effective nonprofits working to promote vegetarianism and help farmed
         animals.{" "}
       </p>
-      <a href="http://www.cok.net/" target="_blank">
+      <a href="http://www.cok.net/" target="_blank" rel="noreferrer">
         http://www.cok.net/
       </a>
       <br />
@@ -177,7 +177,7 @@ export default function Recommended() {
         <b>Humane Society of the US</b> is doing great work to help all animals,
         and does much to help protect farmed animals.
       </p>
-      <a href="http://www.hsus.org/" target="_blank">
+      <a href="http://www.hsus.org/" target="_blank" rel="noreferrer">
         http://www.hsus.org/
       </a>
       <br />
@@ -188,7 +188,7 @@ export default function Recommended() {
         <b>Poplar Spring Animal Sanctuary,</b> in Poolesville, MD, is the
         nearest farmed animal sanctuary to Baltimore.
       </p>
-      <a href="http://www.animalsanctuary.org/" target="_blank">
+      <a href="http://www.animalsanctuary.org/" target="_blank" rel="noreferrer">
         http://www.animalsanctuary.org/
       </a>
       <br />
@@ -197,7 +197,7 @@ export default function Recommended() {
         <b>Farm Sanctuary </b> has locations in California and in New York and
         offers frequent educational opportunities.
       </p>
-      <a href="https://www.farmsanctuary.org/" target="_blank">
+      <a href="https://www.farmsanctuary.org/" target="_blank" rel="noreferrer">
         https://www.farmsanctuary.org/
       </a>
     </div>
