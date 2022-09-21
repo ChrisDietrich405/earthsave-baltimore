@@ -7,6 +7,7 @@ import RightSideBar from "./components/RightSideBar";
 import LeftSideBar from "./components/LeftSideBar";
 import HorizontalNavbar from "./components/HorizontalNavbar";
 import "./App.scss";
+import { FaOldRepublic } from "react-icons/fa"
 
 function App() {
   return (
