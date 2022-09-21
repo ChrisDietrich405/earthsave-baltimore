@@ -1,7 +1,7 @@
-# earthsave-baltimore
+# Earthsave Baltimore
 
-This app is a website for a nonprofit. 
-This project includes bootstrap and also the useContext React Hook
+Earthsave Baltimore is a non profit organization promoting healthy eating and
+veganism. For this project I used the React JS framework along with different libraries such as sass, react-router-dom, bootstrap, toastify. 
 
 ## How To Run This Project
 
@@ -10,7 +10,7 @@ This project includes bootstrap and also the useContext React Hook
 3. Run project (in terminal run `npm start`)
 
 
-Open [http:localhost:3000](http:localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
@@ -23,9 +23,9 @@ You will also see any lint errors in the console.
 ![](src/assets/images/githubreadme2.png)
 
 
-#IN  ORDER TO UPDATE WEBSITE
- -npm run build 
- -open earthsave in window explorer
+## IN  ORDER TO UPDATE WEBSITE
+ 1. npm run build 
+ 2. open earthsave in window explorer
  -open build folder
  -highlight everything in build folder and compress to zip file
  Now go to Bluehost and go to left side and open Advanced
