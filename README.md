@@ -26,16 +26,16 @@ You will also see any lint errors in the console.
 ## IN  ORDER TO UPDATE WEBSITE
  1. npm run build 
  2. open earthsave in window explorer
- -open build folder
- -highlight everything in build folder and compress to zip file
- Now go to Bluehost and go to left side and open Advanced
- scroll down to file manager
- Open up html_public on left side
- Click on Upload (towards the top)
- Drag the compressed file from windows explorer and drop it in Bluehost
- at the bottom in Bluehost there's a button to go back 
- click on Reload (towards the top, but not all the way at the top)
- locate the compressed file in the list of files and highlight it
- towards upper right hand corner click on extract
- click on extract files
- close button click on it
+ 3. open build folder
+ 4. highlight everything in build folder and compress to zip file
+ 5. Now go to Bluehost and go to left side and open Advanced
+ 6. scroll down to file manager
+ 7. Open up html_public on left side
+ 8. Click on Upload (towards the top)
+ 9. Drag the compressed file from windows explorer and drop it in Bluehost
+ 10. at the bottom in Bluehost there's a button to go back 
+ 11. click on Reload (towards the top, but not all the way at the top)
+ 12. locate the compressed file in the list of files and highlight it
+ 13. towards upper right hand corner click on extract
+ 14. click on extract files
+ 15. close button click on it
