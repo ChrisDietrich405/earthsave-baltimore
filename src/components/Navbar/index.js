@@ -21,11 +21,11 @@ export default function Navbar() {
         <div className="topnav">
           <div className="topnav-header">
             <a href="#home" className="active">
-              <img
+              {/* <img
                 src={logo}
                 className="mobile-container-logo"
                 alt="Navbar Logo"
-              />
+              /> */}
             </a>
 
             <button className="icon" onClick={showMenu}>
