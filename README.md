@@ -1,7 +1,6 @@
 # Earthsave Baltimore
 
-Earthsave Baltimore is a non profit organization promoting healthy eating and
-veganism. For this project I used the React JS framework along with different libraries such as sass, react-router-dom, bootstrap, toastify.
+ I built this website for a local non profit, Earthsave Baltimore. For this project I used React JS along with different libraries such as sass, react-router-dom, bootstrap, toastify.
 
 ## How To Run This Project
 
