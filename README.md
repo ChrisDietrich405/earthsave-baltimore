@@ -14,8 +14,11 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ## Screenshots
+Home page
 
 ![](src/assets/images/githubreadme1.png)
+
+Donations page
 
 ![](src/assets/images/githubreadme2.png)
 
