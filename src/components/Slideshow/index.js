@@ -52,7 +52,7 @@ export default function Slideshow() {
   };
 
   return (
-    <div className="slideshow-container">
+    <section className="slideshow-container">
       <div className="slideshow">
         <div className="controls">
           <div className="arrow-btn">
@@ -75,6 +75,6 @@ export default function Slideshow() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

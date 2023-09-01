@@ -1,8 +1,8 @@
+import Page from "../../components/Page";
+
 export default function Membership() {
   return (
-    <div className="page-container">
-      <h1 className="header-title">Earthsave Membership</h1>
-
+    <Page title="Earthsave Membership">
       <p>
         <b> Earthsave Members </b>take pride in supporting an organization that
         is influencing opinions and educating thousands about the compelling
@@ -32,7 +32,7 @@ export default function Membership() {
         For further information, call 410-252-3043 or email
         baltimore@earthsave.org. Hope to see you soon!
       </p>
-    </div>
+    </Page>
   );
 }
 

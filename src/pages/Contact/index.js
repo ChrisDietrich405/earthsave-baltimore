@@ -1,9 +1,9 @@
-import "./styles.scss";
+import Page from "../../components/Page";
+
 
 export default function Contact() {
   return (
-    <div className="page-container">
-      <h1 className="header-title">Contact</h1>
+    <Page title="Contact">
       <p>EARTHSAVE BALTIMORE</p>
       <p>Organizer: Don Robertson</p>
       <p>
@@ -116,6 +116,6 @@ export default function Contact() {
       <p>Salt Lake City: Jennifer Russell-Fenus</p>
       <span>Email</span>
       <a href="slc@earthsave.org">slc@earthsave.org</a>
-    </div>
+    </Page>
   );
 }

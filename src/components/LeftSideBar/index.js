@@ -5,50 +5,42 @@ import Frequently from "../../pages/Frequently";
 import Local from "../../pages/Local";
 import Restaurants from "../../pages/Restaurants";
 import Article from "../../pages/Article";
-
 import Sidebar from "../Sidebar";
 
 import "./styles.scss";
 
 export const leftLinks = [
-  {
-    // icon: <TiNews />,
+  { 
     title: "News & Events Update",
     path: "/news/news",
     component: News,
   },
   {
-    // icon: <ImQuotesLeft />,
     title: "Fascinating Facts & Quotes",
     path: "/fascinating/fascinating",
     component: Fascinating,
   },
   {
-    // icon: <GrResources />,
     title: "Recommended Resources",
     path: "/recommended/recommended",
     component: Recommended,
   },
   {
-    // icon: <BsQuestionSquare />,
     title: "Frequently Asked Questions",
     path: "/frequently/frequently",
     component: Frequently,
   },
   {
-    // icon: <GiMedicalPackAlt />,
     title: "Local Nutrition & Medical Professionals",
     path: "/local/local",
     component: Local,
   },
   {
-    // icon: <BiRestaurant />,
     title: "Local Restaurants",
     path: "/restaurants/restaurants",
     component: Restaurants,
   },
   {
-    // icon: <AiFillHeart />,
     title: "Article: The He(art) of Gentle Persuasion",
     path: "/article",
     component: Article,

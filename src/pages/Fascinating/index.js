@@ -1,7 +1,9 @@
+import Page from "../../components/Page";
+
 export default function Fascinating() {
   return (
-    <div className="page-container">
-      <h1>Fascinating Facts and Quotes About Food</h1>
+    <Page title="Fascinating Facts and Quotes About Food">
+    
       <h4>HEALTHIER FOOD CHOICES: Did you know...</h4>
       <br />
       <b>Protein, Health, & Fitness:</b>{" "}
@@ -392,6 +394,6 @@ export default function Fascinating() {
       <p>
         <b>~Albert Einstein~ </b> Physicist, Nobel Prize 1921
       </p>
-    </div>
+    </Page>
   );
 }

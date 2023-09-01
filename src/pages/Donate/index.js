@@ -1,7 +1,8 @@
+import Page from "../../components/Page";
+
 export default function Donate() {
   return (
-    <div className="page-container">
-      <h1 className="header-title">Donations to Earthsave</h1>
+    <Page title="Donations to Earthsave">
       <p>
         <b>Imagine a world... </b>where the land is fertile, the water is clean,
         the air is fresh, and all are fed. EarthSave helps make this world a
@@ -18,6 +19,6 @@ export default function Donate() {
         , or send a <b>check or money order</b> to <b>Earthsave</b> at 517
         Talbott Ave. Lutherville, MD, 21093. Thanks for your kind support.
       </p>
-    </div>
+    </Page>
   );
 }

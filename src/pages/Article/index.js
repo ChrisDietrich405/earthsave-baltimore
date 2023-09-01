@@ -1,7 +1,8 @@
+import Page from "../../components/Page";
+
 export default function Article() {
   return (
-    <div className="page-container">
-      <h1>Article: The He(art) of Gentle Persuasion</h1>
+    <Page title="The He(art) of Gentle Persuasion">
       <p>
         {" "}
         <b>The He(art) of Gentle Persuasion</b>(Published February, 2012, in On
@@ -144,6 +145,6 @@ export default function Article() {
         page as Earthsaverdon, and on the Facebook group page for Earthsave
         Baltimore.
       </p>
-    </div>
+    </Page>
   );
 }

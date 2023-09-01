@@ -5,15 +5,14 @@ import Footer from "./components/Footer";
 import Routes from "./components/Routes";
 import RightSideBar from "./components/RightSideBar";
 import LeftSideBar from "./components/LeftSideBar";
-import HorizontalNavbar from "./components/HorizontalNavbar";
+
 import "./App.scss";
 
 function App() {
   return (
-    <div className="app-wrapper">
+    <main className="app-wrapper">
       <Router>
         <Navbar />
-        <HorizontalNavbar />
         <div className="home-container">
           <LeftSideBar />
           <div className="home-content">
@@ -23,7 +22,7 @@ function App() {
           <RightSideBar />
         </div>
       </Router>
-    </div>
+    </main>
   );
 }
 

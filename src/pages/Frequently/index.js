@@ -1,7 +1,9 @@
+import Page from "../../components/Page";
+
 export default function Frequently() {
   return (
-    <div className="page-container">
-      <h1>Frequently Asked Questions</h1>
+    <Page title="Frequently Asked Questions">
+   
       <p>
         <b>Question - How do vegetarians and vegans get enough protein?</b>
       </p>
@@ -138,6 +140,6 @@ export default function Frequently() {
         They might even want to consider a diet of fruit, nuts, and seeds, which
         doesn't require the taking of animal or plant lives.
       </p>
-    </div>
+    </Page>
   );
 }

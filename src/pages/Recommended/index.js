@@ -1,9 +1,10 @@
+import Page from "../../components/Page";
 import "./styles.scss";
 
 export default function Recommended() {
   return (
-    <div className="page-container">
-      <h1>Recommendended Resources</h1>
+    <Page title="Recommendended Resources">
+   
       <h3>BOOKS</h3>
       <p>
         These books are available in nearly all public libraries and bookstores.
@@ -200,6 +201,6 @@ export default function Recommended() {
       <a href="https://www.farmsanctuary.org/" target="_blank" rel="noreferrer">
         https://www.farmsanctuary.org/
       </a>
-    </div>
+    </Page>
   );
 }

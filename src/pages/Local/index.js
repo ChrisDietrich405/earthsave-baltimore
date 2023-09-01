@@ -1,9 +1,9 @@
+import Page from "../../components/Page";
 import "./styles.scss";
 
 export default function Local() {
   return (
-    <div className="page-container">
-      <h1>Nutrition & Medical Professionals</h1>
+    <Page title="Nutrition & Medical Professionals">
       <h3>
         <b>National Directory of Plant-Based Medical Professionals</b>
       </h3>
@@ -119,7 +119,11 @@ export default function Local() {
         environment where conventional medical training and complementary
         therapies combine to create wellness. 1300 York Road, Building D - Suite
         #290, Lutherville, MD 21093. Call 410-296-6100.{" "}
-        <a href="http://www.cometawellnesscenter.com/" target="_blank" rel="noreferrer">
+        <a
+          href="http://www.cometawellnesscenter.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           http://www.cometawellnesscenter.com//
         </a>
       </p>
@@ -155,6 +159,6 @@ export default function Local() {
           http://www.bodhiclinic.com/
         </a>{" "}
       </p>
-    </div>
+    </Page>
   );
 }

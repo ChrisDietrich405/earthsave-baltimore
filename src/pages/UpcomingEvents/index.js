@@ -1,11 +1,10 @@
+import Page from "../../components/Page";
 import "./styles.scss";
 
 export default function UpcomingEvents() {
   return (
-    <div className="page-container">
-      <div className="title">
-        <h2>Upcoming Events</h2>
-      </div>
-    </div>
+    <Page title="Upcoming Events">
+
+    </Page>
   );
 }

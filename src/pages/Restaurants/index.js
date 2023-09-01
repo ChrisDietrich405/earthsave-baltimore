@@ -1,7 +1,8 @@
+import Page from "../../components/Page";
+
 export default function Restaurants() {
   return (
-    <div className="page-container">
-      <h1>Restaurants</h1>
+    <Page title="Restaurants">
       <p>
         Here are a few of Earthsavers' favorite Vegetarian and Veg-Friendly
         Restaurants in Baltimore and the surrounding area.
@@ -91,6 +92,6 @@ export default function Restaurants() {
         food grocery listings from the VegBaltimore site is available at all
         Earthsave events and tablings. Be sure to pick one up!
       </p>
-    </div>
+    </Page>
   );
 }

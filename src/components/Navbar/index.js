@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-import logo from "../../assets/images/navbar.jpg";
 import navbar from "../../assets/images/new-banner.jpg";
 
 import "./styles.scss";
@@ -16,18 +15,10 @@ export default function Navbar() {
   };
 
   return (
-    <div className="header-container">
-      <div className="mobile-container">
+    <header className="header-container">
+      <nav className="mobile-container">
         <div className="topnav">
           <div className="topnav-header">
-            <a href="#home" className="active">
-              {/* <img
-                src={logo}
-                className="mobile-container-logo"
-                alt="Navbar Logo"
-              /> */}
-            </a>
-
             <button className="icon" onClick={showMenu}>
               <i className="fa fa-bars"></i>
             </button>
@@ -35,7 +26,7 @@ export default function Navbar() {
 
           <div id="mobile-links">
             <Link to="/">Home</Link>
-            <Link to="/frequently">About</Link>
+            {/* <Link to="/frequently">About</Link> */}
             <Link to="/frequently">FAQ</Link>
             <Link to="/membership">Membership</Link>
             <Link to="/donate">Donate</Link>
@@ -51,14 +42,14 @@ export default function Navbar() {
             <Link to="/contact">Contact</Link>
           </div>
         </div>
-      </div>
+      </nav>
       <div
         className="image-container"
         style={{
           backgroundImage: `url("${navbar}")`,
         }}
       >
-        <div className="desktop-container">
+        <nav className="desktop-container">
           <div className="home-links">
             <Link to="/" className="navbar-link">
               Home
@@ -66,9 +57,9 @@ export default function Navbar() {
           </div>
           <div className="space"></div>
           <div className="FAQ-links">
-            <Link to="/frequently" className="navbar-link">
+            {/* <Link to="/about" className="navbar-link">
               About
-            </Link>
+            </Link> */}
             <Link to="/contact" className="navbar-link">
               Contact
             </Link>
@@ -93,8 +84,8 @@ export default function Navbar() {
               On Facebook
             </a>
           </div>
-        </div>
+        </nav>
       </div>
-    </div>
+    </header>
   );
 }

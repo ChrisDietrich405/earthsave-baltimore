@@ -1,6 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 import classNames from "classnames";
-import parser from "html-react-parser";
 
 import "./styles.scss";
 
@@ -8,11 +7,8 @@ export default function Sidebar(props) {
   const location = useLocation();
 
   return (
-    <div className="sidebar-container">
+    <nav className="sidebar-container">
       <div className="sidebar-in">
-        <div className="sidebar-title">
-          <ul></ul>
-        </div>
         <ul>
           {props.links.map((link, index) => (
             <li key={index}>
@@ -23,12 +19,12 @@ export default function Sidebar(props) {
                   active_item: location.pathname === link.path,
                 })}
               >
-                {parser(link.title)}
+                {link.title}
               </Link>
             </li>
           ))}
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
