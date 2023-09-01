@@ -1,6 +1,6 @@
 # Earthsave Baltimore
 
- I built this website for a local non profit, Earthsave Baltimore. For this project I used React JS along with different libraries such as sass, react-router-dom, bootstrap, toastify.
+I built this website for a local non profit, Earthsave Baltimore. For this project I used React JS. For the CSS I used SASS. I also used several libraries such as react-router-dom, bootstrap, toastify.
 
 ## How To Run This Project
 
@@ -14,8 +14,11 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ## Screenshots
+Home page
 
 ![](src/assets/images/githubreadme1.png)
+
+Donations page
 
 ![](src/assets/images/githubreadme2.png)
 
