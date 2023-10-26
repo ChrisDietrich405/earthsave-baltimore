@@ -136,16 +136,28 @@ export default function News({ className }) {
 
         <br />
         <p>
-          There’s plenty of free parking. Drive around church to large parking
-          lot, where you'll see the white Earthsave banner near the Fellowship
-          Hall entry. You can get monthly event reminders by email by joining
-          the Baltimore Vegan Meetup or Baltimore Vegetarian Meetup.
-          <br />
-          <br />
+          DR. MICHAEL GREGER continues to provide easily digested, well
+          documented information on nutrition and health, with a focus on whole
+          foods, plant-based diets. His site covers a multitude of nutrition
+          related health issues. Many of his reports are featured in short and
+          often humorous videos. Dr. Greger is a New York Times bestselling
+          author of the How Not to Die series books. His newest work, soon to be
+          published, is a book on slowing the effects of aging. It’s called “HOW
+          NOT TO AGE”. You might like to join his email list.
+          <a
+            href=" https://nutritionfacts.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Nutrition Facts
+          </a>
+          <p>
+            FOOD REVOLUTION is an excellent online nutrition education series.
+            https://tinyurl.com/rmprhp65{" "}
+          </p>
           <p>Hope to see you soon!</p>
         </p>
         <br />
-        <p>Peace &amp; Love…</p>
       </div>
     </div>
   );
