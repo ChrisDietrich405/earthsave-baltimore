@@ -22,12 +22,11 @@ export default function News({ className }) {
         <br />
         <p>
           We have some fun events coming up. On Oct. <b>28th,</b> 6:00 pm, we’ll
-          present a <p>MOVIE NIGHT!</p> Vegan Potluck at Govans Presbyterian
+          present a <b>MOVIE NIGHT!</b> Vegan Potluck at Govans Presbyterian
           Church. RSVP on Facebook at{" "}
-          <a href="https://fb.me/e/3VVHWPbFZ">Movie Night </a> and{" "}
-          <a href="https://tinyurl.com/bdfumr4e">Meetup</a>
-          MONTHLY VEGAN POTLUCKS: The attendance fee is $5. Please RSVP by
-          email.
+          <a href="https://fb.me/e/3VVHWPbFZ">&nbsp; Movie Night </a>&nbsp; and{" "}
+          &nbsp;
+          <a href="https://tinyurl.com/bdfumr4e"> Meetup</a>
         </p>
 
         <p>
@@ -60,8 +59,11 @@ export default function News({ className }) {
           Our next RESTAURANT GATHERING will be <b>Nov. 12th</b> at{" "}
           <b>Taj Palace</b>
           restaurant in Owings Mills. Their buffet, $19, is very popular with
-          our members, and vegan choices are numerous and easily located.
-          <a href="www.meetup.com/baltimore-vegan/events/296784497">
+          our members, and vegan choices are numerous and easily located. &nbsp;
+          <a
+            href="www.meetup.com/baltimore-
+vegan/events/296784497"
+          >
             Restaurant Gathering
           </a>
         </p>
@@ -99,10 +101,12 @@ export default function News({ className }) {
         </p>
         <p>
           Please also join discussions and get event info in the Earthsave
+          &nbsp;
           <a href="www.tinyurl.com/ypwpj49h " target="_blank" rel="noreferrer">
-            &nbsp;Baltimore Facebook group.
+            Baltimore Facebook group.
           </a>
         </p>
+
         <p>
           Saturday. Nov. 18th, 12:00 – 4:00, POPLAR SPRING ANIMAL SANCTUARY in
           Poolesville, MD, will celebrate their annual Thanksgiving WITH the
@@ -112,6 +116,11 @@ export default function News({ className }) {
           <a href="https://fb.me/e/2wX6BYn2c " target="_blank" rel="noreferrer">
             POPLAR SPRING ANIMAL SANCTUARY THANKSGIVING
           </a>
+        </p>
+        <p>
+          Also, our good friend Chris Dietrich is hosting a game night and
+          potluck at his home in Glen Burnie Nov 18th at 6pm. Call 240 814 4208
+          to RSVP.{" "}
         </p>
         <p>
           BALTIMORE VEGANS group on Facebook is a good place to connect with
@@ -143,7 +152,7 @@ export default function News({ className }) {
           often humorous videos. Dr. Greger is a New York Times bestselling
           author of the How Not to Die series books. His newest work, soon to be
           published, is a book on slowing the effects of aging. It’s called “HOW
-          NOT TO AGE”. You might like to join his email list.
+          NOT TO AGE”. You might like to join his email list.&nbsp;
           <a
             href=" https://nutritionfacts.org/"
             target="_blank"
@@ -151,12 +160,20 @@ export default function News({ className }) {
           >
             Nutrition Facts
           </a>
-          <p>
-            FOOD REVOLUTION is an excellent online nutrition education series.
-            https://tinyurl.com/rmprhp65{" "}
-          </p>
-          <p>Hope to see you soon!</p>
         </p>
+        <p>
+          FOOD REVOLUTION is an excellent online nutrition education series.
+          &nbsp;
+          <a
+            href=" https://tinyurl.com/rmprhp65"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Food revolution
+          </a>
+        </p>
+        <p>Be well. Hope to see you soon!</p>
+
         <br />
       </div>
     </div>
