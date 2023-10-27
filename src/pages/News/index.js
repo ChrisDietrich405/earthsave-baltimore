@@ -24,9 +24,19 @@ export default function News({ className }) {
           We have some fun events coming up. On Oct. <b>28th,</b> 6:00 pm, we’ll
           present a <b>MOVIE NIGHT!</b> Vegan Potluck at Govans Presbyterian
           Church. RSVP on Facebook at{" "}
-          <a href="https://fb.me/e/3VVHWPbFZ"> Movie Night </a>&nbsp; and{" "}
-        
-          <a href="https://tinyurl.com/bdfumr4e"> Meetup</a>
+          <a href="https://fb.me/e/3VVHWPbFZ" target="_blank" rel="noreferrer">
+            {" "}
+            Movie Night{" "}
+          </a>
+          &nbsp; and{" "}
+          <a
+            href="https://tinyurl.com/bdfumr4e"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Meetup
+          </a>
         </p>
 
         <p>
@@ -61,8 +71,9 @@ export default function News({ className }) {
           restaurant in Owings Mills. Their buffet, $19, is very popular with
           our members, and vegan choices are numerous and easily located. &nbsp;
           <a
-            href="www.meetup.com/baltimore-
-vegan/events/296784497"
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.meetup.com/baltimore-vegan/events/296784497"
           >
             Restaurant Gathering
           </a>
