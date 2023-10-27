@@ -24,8 +24,8 @@ export default function News({ className }) {
           We have some fun events coming up. On Oct. <b>28th,</b> 6:00 pm, we’ll
           present a <b>MOVIE NIGHT!</b> Vegan Potluck at Govans Presbyterian
           Church. RSVP on Facebook at{" "}
-          <a href="https://fb.me/e/3VVHWPbFZ">&nbsp; Movie Night </a>&nbsp; and{" "}
-          &nbsp;
+          <a href="https://fb.me/e/3VVHWPbFZ"> Movie Night </a>&nbsp; and{" "}
+        
           <a href="https://tinyurl.com/bdfumr4e"> Meetup</a>
         </p>
 
@@ -119,7 +119,7 @@ vegan/events/296784497"
         </p>
         <p>
           Also, our good friend Chris Dietrich is hosting a game night and
-          potluck at his home in Glen Burnie Nov 18th at 6pm. Call 240 814 4208
+          potluck at his home in Glen Burnie Nov. 18th at 6pm. Call 240 814 4208
           to RSVP.{" "}
         </p>
         <p>
