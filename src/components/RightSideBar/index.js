@@ -6,7 +6,7 @@ import "./styles.scss";
 export const rightLinks = [
   {
     title: "No Upcoming Events Available",
-    path: "/upcoming-events/upcoming-events",
+    path: "https://www.meetup.com/baltimore-vegan/",
     component: UpcomingEvents,
   },
 ];
@@ -14,8 +14,16 @@ export const rightLinks = [
 export default function RightSideBar() {
   return (
     <div className="sidebar-right-container">
-      <h3>Upcoming Events</h3>
-      <Sidebar links={rightLinks} className="sidebar-right" />
+      <a
+        style={{ marginTop: "30px", textDecoration: "none" }}
+        href="https://www.meetup.com/baltimore-vegan/ "
+        target="_blank"
+        rel="noreferrer"
+        className="facebook"
+      >
+        Baltimore Vegan Meetup
+      </a>
+      {/* <Sidebar links={rightLinks} className="sidebar-right" /> */}
     </div>
   );
 }

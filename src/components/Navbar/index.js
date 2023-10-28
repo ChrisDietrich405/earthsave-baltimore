@@ -26,7 +26,7 @@ export default function Navbar() {
 
           <div id="mobile-links">
             <Link to="/">Home</Link>
-            {/* <Link to="/frequently">About</Link> */}
+
             <Link to="/frequently">FAQ</Link>
             <Link to="/membership">Membership</Link>
             <Link to="/donate">Donate</Link>
@@ -57,26 +57,23 @@ export default function Navbar() {
           </div>
           <div className="space"></div>
           <div className="FAQ-links">
-            {/* <Link to="/about" className="navbar-link">
-              About
-            </Link> */}
             <Link to="/contact" className="navbar-link">
               Contact
             </Link>
             <Link to="/frequently" className="navbar-link">
               FAQ
             </Link>
-            <Link to="/membership" className="navbar-link">
+            {/* <Link to="/membership" className="navbar-link">
               Membership
             </Link>
             <Link to="/donate" className="navbar-link">
               Donate
-            </Link>
+            </Link> */}
             <Link to="/email-newsletter" className="navbar-link">
               Subscribe
             </Link>
             <a
-              href="https://www.facebook.com/ConsciousFoodChoices"
+              href="https://www.facebook.com/groups/EarthsaveBaltimore/"
               className="navbar-link facebook"
               rel="noreferrer"
               target="_blank"

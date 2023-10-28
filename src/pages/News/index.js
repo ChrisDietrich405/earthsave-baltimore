@@ -113,7 +113,7 @@ export default function News({ className }) {
         <p>
           Please also join discussions and get event info in the Earthsave
           &nbsp;
-          <a href="www.tinyurl.com/ypwpj49h " target="_blank" rel="noreferrer">
+          <a href="https://www.facebook.com/groups/EarthsaveBaltimore/ " target="_blank" rel="noreferrer">
             Baltimore Facebook group.
           </a>
         </p>
