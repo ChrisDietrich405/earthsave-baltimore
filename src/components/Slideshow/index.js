@@ -8,12 +8,13 @@ import slideshow3 from "../../assets/images/3.jpg";
 import slideshow4 from "../../assets/images/4.jpg";
 import slideshow5 from "../../assets/images/5.jpg";
 import slideshow6 from "../../assets/images/6.jpg";
-import slideshow7 from "../../assets/images/7.jpg";
-import slideshow8 from "../../assets/images/8.jpg";
-import slideshow9 from "../../assets/images/9.png";
-import slideshow10 from "../../assets/images/10.jpg";
-import slideshow11 from "../../assets/images/11.jpg";
-import slideshow12 from "../../assets/images/12.jpg";
+import slideshow7 from "../../assets/drmills.jpg";
+// import slideshow7 from "../../assets/images/7.jpg";
+// import slideshow8 from "../../assets/images/8.jpg";
+// import slideshow9 from "../../assets/images/9.png";
+// import slideshow10 from "../../assets/images/10.jpg";
+// import slideshow11 from "../../assets/images/11.jpg";
+// import slideshow12 from "../../assets/images/12.jpg";
 
 import "./styles.scss";
 
@@ -26,11 +27,11 @@ export default function Slideshow() {
     slideshow5,
     slideshow6,
     slideshow7,
-    slideshow8,
-    slideshow9,
-    slideshow10,
-    slideshow11,
-    slideshow12,
+    // slideshow8,
+    // slideshow9,
+    // slideshow10,
+    // slideshow11,
+    // slideshow12,
   ];
 
   const [index, setIndex] = useState(0);

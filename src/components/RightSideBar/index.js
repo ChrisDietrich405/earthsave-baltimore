@@ -21,7 +21,9 @@ export default function RightSideBar() {
         rel="noreferrer"
         className="facebook"
       >
-        Baltimore Vegan Meetup
+        <p>Earthsave Events Schedule</p>
+        <p>Please RSVP in Baltimore</p>
+        Vegan Meetup group
       </a>
       {/* <Sidebar links={rightLinks} className="sidebar-right" /> */}
     </div>
