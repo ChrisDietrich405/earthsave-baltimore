@@ -21,62 +21,78 @@ export default function News({ className }) {
         </p>
         <br />
         <p>
-          We have some fun events coming up. On Oct. <b>28th,</b> 6:00 pm, we’ll
-          present a <b>MOVIE NIGHT!</b> Vegan Potluck at Govans Presbyterian
-          Church. RSVP on Facebook at{" "}
-          <a href="https://fb.me/e/3VVHWPbFZ" target="_blank" rel="noreferrer">
-            {" "}
-            Movie Night{" "}
-          </a>
-          &nbsp; and{" "}
+          Here's on update on our final three events for the year 2023: We have
+          upcoming RESTAURANT GATHERINGS on November 12th at 12:30 at the Taj
+          Palace in Owings Mills, and on December 10th at 12:30 at Mr. Chan in
+          Pikesville. Best way to RSVP is through Baltimore Vegan Meetup
+          www.meetup.com/baltimore-vegan/ Or you can contact us at
+          Baltimore@Earthsave.org.&nbsp;
           <a
-            href="https://tinyurl.com/bdfumr4e"
             target="_blank"
             rel="noreferrer"
+            href="https://www.meetup.com/baltimore-vegan/events"
           >
-            {" "}
-            Meetup
+            RSVP
           </a>
         </p>
 
         <p>
-          <b> Oct. 28th</b>, 6:00 pm: MOVIE NIGHT!{" "}
-          <b>"Harry and the Hendersons"</b>
-          (1987) is a sweet and charming family fantasy/comedy with a message of
-          kindness and compassion for animals. While returning from a trip in
-          the woods, George Henderson (John Lithgow) and his family hit a
-          bigfoot with their car. Thinking the creature is dead, they take him
-          home, but "Harry" (Kevin Peter Hall) soon awakens. Despite their
-          initial fears, Harry is a kind and sensitive being, and the Hendersons
-          become very fond of him. However, it is difficult to keep him a
-          secret, and soon they begin to fear for Harry's safety.
+          We will wrap up the year with our big, annual Thanks-Living
+          Celebration. Please share the event with your Facebook friends&nbsp;
+          <a target="_blank" rel="noreferrer" href="https://fb.me/e/1ePN1m81o ">
+            RSVP and join us if you can!
+          </a>
         </p>
         <p>
-          <b>Potluck attendees</b> are asked to bring a dish made without animal
-          products that will serve 8 or more. If you’d like to bring food just
-          for yourself or attend without eating, the fee is $5. We can usually
-          accommodate a few guests who wish to attend without bringing a dish.
-          The fee is $20, but pre-approval is required, and we’ll need to hear
-          from you a day or more in advance.
+          Kind Thoughts, Peace, and Gratitude will be the theme for Earthsave
+          Baltimore’s Thanks-Living Vegan Open-Mic potluck on Nov. 25th. We’ll
+          have live music and entertainment. And attendees will be invited to
+          speak briefly from their table or at the front of the room. Contact&nbsp;
+          <a id="email-underline" href="mailto:https://www.earthsave.org">
+            Baltimore@earthsave.org
+          </a>{" "}
+          if you'd like to reserve a spot onstage.
         </p>
         <p>
-          There’s plenty of free parking. Drive around church to large parking
-          lot, where you'll see the white Earthsave banner near the Fellowship
-          Hall entry. You can get monthly event reminders by email by joining
-          the Baltimore Vegan Meetup or Baltimore Vegetarian Meetup.
-        </p>
-        <p>
-          Our next RESTAURANT GATHERING will be <b>Nov. 12th</b> at{" "}
-          <b>Taj Palace</b>
-          restaurant in Owings Mills. Their buffet, $19, is very popular with
-          our members, and vegan choices are numerous and easily located. &nbsp;
+          MONTHLY VEGAN POTLUCKS: The attendance fee is $5. Meetup at &nbsp;
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.meetup.com/baltimore-vegan/events/296784497"
+            href="https://tinyurl.com/ysw34e5h"
           >
-            Restaurant Gathering
+            You may RSVP on
           </a>
+          , or by email at&nbsp;
+          <a id="email-underline" href="mailto:https://www.earthsave.org">
+            Baltimore@earthsave.org
+          </a>{" "}
+          or voicemail 410-252-3043. Share information and connect with
+          like-minded local people on Facebook in Earthsave Baltimore
+          group&nbsp;
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="  https://tinyurl.com/4bert5hh"
+          >
+            Baltimore Vegans Facebook
+          </a>{" "}
+          or{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="  https://tinyurl.com/4hrajkax"
+          >
+            Baltimore Vegans
+          </a>
+        </p>
+        <p>
+          GUESTS are asked to bring a dish made without animal products that
+          will serve 8 or more. If you’d like to bring food just for yourself or
+          attend without eating, the fee is $5. We can usually accommodate a few
+          guests who wish to attend without bringing a dish. The fee is $20, and
+          pre-approval is required. There’s plenty of FREE PARKING. Drive around
+          church to large parking lot, where you'll see the white Earthsave
+          banner near the Fellowship Hall entry. Please join us when you can!
         </p>
         <p>
           Saturday, Nov. 25th is when Earthsave’s annual THANKS-LIVING VEGAN
@@ -85,11 +101,7 @@ export default function News({ className }) {
           invite everyone, vegan or not, who would like to tell a story, sing a
           song, tell a joke, do standup comedy, poetry, magic, or anything your
           imagination would allow. Performers must be approved in advance.
-          Contact Don at &nbsp;
-          <a id="email-underline" href="mailto:https://www.earthsave.org">
-            Baltimore@earthsave.org
-          </a>{" "}
-          to be included in the show!
+          Contact Don at &nbsp; to be included in the show!
         </p>
         <p>
           You can RSVP and get the latest updates for all Earthsave’s potlucks
@@ -113,7 +125,11 @@ export default function News({ className }) {
         <p>
           Please also join discussions and get event info in the Earthsave
           &nbsp;
-          <a href="https://www.facebook.com/groups/EarthsaveBaltimore/ " target="_blank" rel="noreferrer">
+          <a
+            href="https://www.facebook.com/groups/EarthsaveBaltimore/ "
+            target="_blank"
+            rel="noreferrer"
+          >
             Baltimore Facebook group.
           </a>
         </p>
