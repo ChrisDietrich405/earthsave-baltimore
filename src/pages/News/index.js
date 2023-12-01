@@ -47,7 +47,8 @@ export default function News({ className }) {
           Kind Thoughts, Peace, and Gratitude will be the theme for Earthsave
           Baltimore’s Thanks-Living Vegan Open-Mic potluck on Nov. 25th. We’ll
           have live music and entertainment. And attendees will be invited to
-          speak briefly from their table or at the front of the room. Contact&nbsp;
+          speak briefly from their table or at the front of the room.
+          Contact&nbsp;
           <a id="email-underline" href="mailto:https://www.earthsave.org">
             Baltimore@earthsave.org
           </a>{" "}
@@ -60,7 +61,7 @@ export default function News({ className }) {
             rel="noreferrer"
             href="https://tinyurl.com/ysw34e5h"
           >
-            You may RSVP on
+            You may RSVP here
           </a>
           , or by email at&nbsp;
           <a id="email-underline" href="mailto:https://www.earthsave.org">
