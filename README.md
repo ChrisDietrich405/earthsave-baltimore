@@ -5,16 +5,16 @@ I built this website for a local non profit, Earthsave Baltimore. For this proje
 <div align="center">
   <img src="https://img.shields.io/badge/ReactJS-17.0.2-green" alt="React.js">
   <img src="https://img.shields.io/badge/Bootstrap-5.0.0-blue" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/SASS-brightgreen" alt="Docker">
+  <img src="https://img.shields.io/badge/SASS-6.0.1-brightgreen" alt="Sass">
 
 </div>
 <br/>
 
 ## How To Run This Project
-
-1. Clone project (in terminal add `git clone https:github.com/ChrisDietrich405/earthsave-baltimore`)
-2. Install dependencies (in terminal run `npm install`)
-3. Run project (in terminal run `npm start`)
+1. Install NodeJS version 16 or later
+2. Clone project (in terminal add `git clone https:github.com/ChrisDietrich405/earthsave-baltimore`)
+3. Install dependencies (in terminal run `npm install`)
+4. Run project (in terminal run `npm start`)
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
