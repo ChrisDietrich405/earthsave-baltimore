@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## How To Run This Project Using Docker
 
 
-1. Download Docker https://www.docker.com/get-started/
+1. Download and install Docker https://www.docker.com/get-started/
 
 2. Build docker image.
 This command will use the project's DockerFile to create a docker image of the project.
