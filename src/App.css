@@ -1,0 +1,52 @@
+.app-wrapper {
+  position: relative;
+}
+.app-wrapper .home-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.app-wrapper .home-container .home-content {
+  flex-basis: 70%;
+}
+.app-wrapper .App {
+  background: #edf8f4;
+  width: 100vw;
+  display: flex;
+}
+.app-wrapper .app-container {
+  display: flex;
+  justify-content: center;
+}
+.app-wrapper .app-switch {
+  position: relative;
+  flex: 3;
+}
+.app-wrapper .page-container {
+  min-height: 70%;
+  background: #fff;
+  padding: 20px;
+}
+
+@media all and (max-width: 900px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-right-container,
+  .sidebar-left-container {
+    display: none;
+  }
+  .sidebar-right-container a {
+    background-color: purple;
+  }
+  .page-container {
+    width: 100%;
+    min-height: 0px;
+    padding-bottom: 50px;
+  }
+  .app-wrapper .home-container .home-content {
+    flex-basis: 100%;
+  }
+}/*# sourceMappingURL=App.css.map */

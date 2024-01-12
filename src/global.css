@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edf8f4;
+  margin: 0px !important;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  display: block;
+  line-height: 125%;
+}
+
+b {
+  display: inline;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+  display: block;
+}
+
+span {
+  padding-right: 6px;
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,10 @@
+.sidebar-left-container {
+  background-color: #edf8f4;
+  flex-basis: 25%;
+}
+
+@media all and (max-width: 900px) {
+  .sidebar-left-container {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */
