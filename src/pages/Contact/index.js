@@ -110,7 +110,7 @@ export default function Contact() {
       <span>Email</span>
       <a href="cincinnati@earthsave.org">cincinnati@earthsave.org</a>
 
-      <p>Website: hellogit </p>
+      <p>Website: </p>
       <br />
       <p>Utah</p>
       <p>Salt Lake City: Jennifer Russell-Fenus</p>
