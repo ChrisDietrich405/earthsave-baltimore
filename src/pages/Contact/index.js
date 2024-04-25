@@ -112,7 +112,7 @@ export default function Contact() {
 
       <p>Website: </p>
       <br />
-      <p>Utadh</p>
+      <p>Utad</p>
       <p>Salt Lake City: Jennifer Russell-Fenus</p>
       <span>Email</span>
       <a href="slc@earthsave.org">slc@earthsave.org</a>
