@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
-import slideshow from "../../assets/images/thanksgiving.jpg"
+// import slideshow from "../../assets/images/thanksgiving.jpg"
 import slideshow1 from "../../assets/images/1.jpg";
 import slideshow2 from "../../assets/images/2.jpg";
 import slideshow3 from "../../assets/images/3.jpg";
@@ -22,7 +22,7 @@ import "./styles.scss";
 
 export default function Slideshow() {
   const imageArray = [
-    slideshow,
+    // slideshow,
     slideshow1,
     slideshow2,
     slideshow3,
